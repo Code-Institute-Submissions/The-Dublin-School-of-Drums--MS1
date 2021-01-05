@@ -1,6 +1,10 @@
 .carousel-item {
     height: 16rem;
     background: pink;
-  
-   
 }
+
+.alert {
+    text-align: center;
+    text-decoration: underline;
+}
+
