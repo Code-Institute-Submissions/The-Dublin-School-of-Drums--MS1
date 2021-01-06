@@ -6,5 +6,34 @@
 .alert {
     text-align: center;
     text-decoration: underline;
+    margin-top: 20px;
 }
 
+.footer{
+    
+    line-height: 75px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.current{
+    text-decoration: underline;
+}
+
+.teachers-head{
+    text-align: center;
+    margin: 35px 0;
+}
+
+
+.bio{
+    height: 250px;
+}
+
+.matt {
+    height: 250px;
+    width: 50%;
+    background-image: url(assets/images/matt1.jpg);
+}
