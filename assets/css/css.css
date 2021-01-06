@@ -24,16 +24,30 @@
 
 .teachers-head{
     text-align: center;
-    margin: 35px 0;
-}
-
-
-.bio{
-    height: 250px;
+    margin: 50px 0;
 }
 
 .matt {
-    height: 250px;
-    width: 50%;
-    background-image: url(assets/images/matt1.jpg);
+    height: 350px;
+    width: 725px;
+    }
+
+.danny {
+     height: 350px;
+     width: 725px;
+}
+
+.samantha {
+     height: 350px;
+     width: 725px;
+}
+
+.jimmy {
+    height: 350px;
+    width: 725px;
+}
+
+.tony {
+     height: 350px;
+     width: 725px;
 }
