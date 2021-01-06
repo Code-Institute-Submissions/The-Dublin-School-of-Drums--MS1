@@ -22,7 +22,7 @@
     text-decoration: underline;
 }
 
-.teachers-head{
+.head {
     text-align: center;
     margin: 50px 0;
 }
@@ -50,4 +50,9 @@
 .tony {
      height: 350px;
      width: 725px;
+}
+
+.enroll-info {
+    text-align: center;
+    margin-bottom: 25px;
 }
