@@ -43,18 +43,25 @@
      height: 300px;
      width: 625px;
     overflow-x: hidden;
+    }
 
-.jimmy {
-    height: 300px;
+    .jimmy {
+     height: 300px;
      width: 625px;
-    overflow-x: hidden;
-}
+     overflow-x: hidden;
+    }
 
     .tony {
      height: 300px;
      width: 625px;
-   overflow-x: hidden;
-}
+     overflow-x: hidden;
+    }
+
+    .jimmy{
+        height: 300px;
+        width: 625px;
+        overflow-x: hidden;
+    }
 
 .enroll-info {
     text-align: center;
