@@ -28,31 +28,40 @@
 }
 
 .matt {
-    height: 350px;
-    width: 725px;
+    height: 300px;
+    width: 625px;
+   overflow-x: hidden;
     }
 
 .danny {
-     height: 350px;
-     width: 725px;
+     height: 300px;
+     width: 625px;
+     overflow-x:hidden;
 }
 
 .samantha {
-     height: 350px;
-     width: 725px;
-}
+     height: 300px;
+     width: 625px;
+    overflow-x: hidden;
 
 .jimmy {
-    height: 350px;
-    width: 725px;
+    height: 300px;
+     width: 625px;
+    overflow-x: hidden;
 }
 
-.tony {
-     height: 350px;
-     width: 725px;
+    .tony {
+     height: 300px;
+     width: 625px;
+   overflow-x: hidden;
 }
 
 .enroll-info {
     text-align: center;
     margin-bottom: 25px;
+  
+}
+
+.bio{
+    overflow-x: hidden;
 }
