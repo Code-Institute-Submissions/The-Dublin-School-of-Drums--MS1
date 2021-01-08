@@ -1,7 +1,24 @@
-/*body {
-    background-image: url("assets/images/school-bg.jpg") no-repeat center center;
-  overflow: hidden;
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+font-family: "Source Sans Pro", sans-serif;
+}
+
+.logo {
+    font-family: "Big Shoulders Stencil Text" , sans-serif;
+    letter-spacing: 2px;
+}
+
+a {
+  font-size: 21px;
+}
+
+
+
+.index-head {
+    font-family: "Big Shoulders Stencil Text" , sans-serif;
+    letter-spacing: 5px;
+}
 
 .carousel-item {
     height: 16rem;
