@@ -39,6 +39,11 @@
    overflow-x: hidden;
 }
 
+.matt-diff {
+    max-width: 100%;
+    height: auto;
+}
+
 .danny {
      height: 300px;
      width: 625px;
@@ -49,6 +54,11 @@
      height: 300px;
      width: 625px;
      overflow-x: hidden;
+}
+
+.danny-diff {
+    max-width: 100%;
+    height: auto;
 }
 
 .samantha {
@@ -63,6 +73,11 @@
     overflow-x: hidden;
     }
 
+    .sam-diff {
+        max-width: 100%;
+        height: auto;
+    }
+
     .jimmy {
      height: 300px;
      width: 625px;
@@ -75,6 +90,11 @@
         overflow-x: hidden;
     }
 
+    .jimmy-diff {
+        max-width: 100%;
+        height: auto;
+    }
+
     .tony {
      height: 300px;
      width: 625px;
@@ -85,6 +105,11 @@
         height: 300px;
      width: 625px;
      overflow-x: hidden;
+    }
+
+    .tony-diff {
+        max-width: 100%;
+        height: auto;
     }
 
 .enroll-info {
