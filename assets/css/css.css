@@ -33,14 +33,32 @@
    overflow-x: hidden;
     }
 
+.matt-hover{
+    height: 300px;
+    width: 625px;
+   overflow-x: hidden;
+}
+
 .danny {
      height: 300px;
      width: 625px;
-     overflow-x:hidden;
+     overflow-x: hidden;
+}
+
+.danny-hover {
+     height: 300px;
+     width: 625px;
+     overflow-x: hidden;
 }
 
 .samantha {
      height: 300px;
+     width: 625px;
+    overflow-x: hidden;
+    }
+
+    .sam-hover {
+    height: 300px;
      width: 625px;
     overflow-x: hidden;
     }
@@ -51,16 +69,22 @@
      overflow-x: hidden;
     }
 
+    .jimmy-hover{
+        height: 300px;
+        width: 625px;
+        overflow-x: hidden;
+    }
+
     .tony {
      height: 300px;
      width: 625px;
      overflow-x: hidden;
     }
 
-    .jimmy{
+    .tony-hover {
         height: 300px;
-        width: 625px;
-        overflow-x: hidden;
+     width: 625px;
+     overflow-x: hidden;
     }
 
 .enroll-info {
