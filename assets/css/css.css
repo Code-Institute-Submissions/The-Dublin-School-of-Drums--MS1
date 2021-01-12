@@ -158,3 +158,9 @@ a {
 .bio{
     overflow-x: hidden;
 }
+
+.social a i{
+    font-size: 45px;
+    display: flex;
+    justify-content: space-between;
+}
