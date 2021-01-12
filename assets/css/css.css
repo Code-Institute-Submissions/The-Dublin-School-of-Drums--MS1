@@ -157,10 +157,26 @@ a {
 
 .bio{
     overflow-x: hidden;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .social a i{
     font-size: 45px;
     display: flex;
     justify-content: space-between;
+}
+
+.staff {
+    margin-bottom: 4rem;
+}
+
+.staff:hover {
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+
+.point {
+    font-size: 21px;
 }
