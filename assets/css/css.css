@@ -181,3 +181,12 @@ footer h5 {
     font-family: "Big Shoulders Stencil Text";
     font-size: 30px;
 }
+
+.contact {
+    margin-top: 6rem;
+}
+
+.address {
+    text-align: center;
+    font-size: 1.5rem;
+}
