@@ -21,9 +21,10 @@ a {
 }
 
 .carousel-item {
-    height: 16rem;
-     background-color: blue;
+    height: 19rem;
+     
 }
+
 
 .alert {
     text-align: center;
@@ -47,6 +48,12 @@ a {
 .head {
     text-align: center;
     margin: 50px 0;
+}
+
+.students {
+    width: 150x;
+    height: 145px;
+    border-radius: 50%;
 }
 
 .matt {
@@ -173,6 +180,13 @@ a {
     
 }
 
+.lessons {
+    font-family: "Big Shoulders Stencil Text" , sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+}
+
 .point {
     font-size: 21px;
 }
@@ -181,6 +195,8 @@ footer h5 {
     font-family: "Big Shoulders Stencil Text";
     font-size: 30px;
 }
+
+
 
 .contact {
     margin-top: 6rem;
