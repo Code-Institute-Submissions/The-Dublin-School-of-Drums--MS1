@@ -41,7 +41,11 @@ ul {
     line-height:25px;
 }
 
-
+/*.jumbotron-container {
+    background: url(assets/images/school-bg.jpg) no-repeat center center;
+   
+    background-size: cover;
+} */
 
 .carousel-item {
     height: 19rem;
@@ -302,7 +306,7 @@ footer h5 {
 
 /*--------------------------------------------------------------------------------Contact Page */
 
-footer {
+.contact {
     padding-top: 25px;
     background-color: greenyellow;
 }
