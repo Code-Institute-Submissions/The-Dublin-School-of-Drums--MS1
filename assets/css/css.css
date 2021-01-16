@@ -5,6 +5,8 @@ font-family: "Source Sans Pro", sans-serif;
 
 }
 
+/*--------------------------------------------------------------------------------Navigation Bar */
+
 .logo {
     font-family: "Big Shoulders Stencil Text" , sans-serif;
     letter-spacing: 2px;
@@ -14,13 +16,22 @@ a {
   font-size: 21px;
 }
 
+/*--------------------------------------------------------------------------------Index Page */
 
+.lead {
+    font-size: 20px;
+    margin-top: 20px;
+}
 
 .index-head {
     font-family: "Big Shoulders Stencil Text" , sans-serif;
     letter-spacing: 5px;
 }
 
+ul {
+    list-style-type: square;
+    line-height:25px;
+}
 
 .carousel-item {
     height: 19rem;
@@ -57,6 +68,12 @@ a {
     height: 145px;
     border-radius: 50%;
 }
+
+.feedback {
+    margin-top: 50px;
+}
+
+/*--------------------------------------------------------------------------------Teachers Page */
 
 .matt {
     height: 300px;
@@ -176,12 +193,6 @@ a {
     }
 
 
-.enroll-info {
-    text-align: center;
-    margin-bottom: 25px;
-  
-}
-
 .bio{
     overflow-x: hidden;
     font-size: 18px;
@@ -201,6 +212,8 @@ a {
     
 }
 
+/*--------------------------------------------------------------------------------Lessons Page */
+
 .lessons {
     font-family: "Big Shoulders Stencil Text" , sans-serif;
     text-align: center;
@@ -208,6 +221,9 @@ a {
     margin-bottom: 2rem; 
 }
 
+.patterns {
+    margin-bottom: 100px;
+}
 
 .point {
     font-size: 21px;
@@ -221,6 +237,9 @@ footer h5 {
 .embed {
     margin-bottom: 40px;
 }
+
+
+/*--------------------------------------------------------------------------------Contact Page */
 
 
 .contact {
@@ -263,3 +282,7 @@ footer h5 {
     margin: 0 auto;
 }
 
+.enroll-info {
+    text-align: center;
+    margin-bottom: 25px;
+}
