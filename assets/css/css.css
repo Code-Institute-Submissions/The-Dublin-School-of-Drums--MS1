@@ -21,6 +21,7 @@ a {
     letter-spacing: 5px;
 }
 
+
 .carousel-item {
     height: 19rem;
      
@@ -60,10 +61,11 @@ a {
 .matt {
     height: 300px;
     width: 625px;
-   overflow-x: hidden;
+    overflow-x: hidden;
 
-   padding: 0;
-     margin: 0;
+    padding: 0;
+    margin: 0;
+
     }
 
 .matt-hover{
@@ -75,6 +77,8 @@ a {
 .matt-diff {
     max-width: 100%;
     height: auto;
+
+   
 }
 
 .danny {
@@ -157,6 +161,21 @@ a {
         height: auto;
     }
 
+
+    .fade-in {
+       animation: fadeIn ease 1s;
+    }
+
+    @keyframes fadeIn {
+       0% {
+           opacity:0;
+        }
+       100% {
+           opacity:1;
+        }
+    }
+
+
 .enroll-info {
     text-align: center;
     margin-bottom: 25px;
@@ -169,6 +188,7 @@ a {
     margin-bottom: 20px;
     text-align: center;
 }
+
 
 .social a i{
     font-size: 45px;
@@ -187,6 +207,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 2rem; 
 }
+
 
 .point {
     font-size: 21px;
@@ -213,6 +234,7 @@ footer h5 {
 .address {
     text-align: center;
     font-size: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .form-control{
@@ -226,9 +248,18 @@ footer h5 {
 
 .whole-form{
     text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+
+.form-group{
+     text-align: center;
 }
 
 .form-control{
     text-align: center;
     margin: 0 auto;
 }
+
