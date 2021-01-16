@@ -2,6 +2,7 @@
 
 body {
 font-family: "Source Sans Pro", sans-serif;
+
 }
 
 .logo {
@@ -205,6 +206,10 @@ footer h5 {
     margin-top: 6rem;
 }
 
+.contact-image {
+    background-color: blue;
+}
+
 .address {
     text-align: center;
     font-size: 1.5rem;
@@ -217,4 +222,13 @@ footer h5 {
 
 .center {
     text-align: center;
+}
+
+.whole-form{
+    text-align: center;
+}
+
+.form-control{
+    text-align: center;
+    margin: 0 auto;
 }
