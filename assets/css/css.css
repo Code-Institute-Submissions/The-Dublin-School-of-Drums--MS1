@@ -4,13 +4,15 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&family=Source+Serif+Pro:wght@600&display=swap');
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&family=Source+Serif+Pro:wght@600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&family=Source+Serif+Pro:wght@600&display=swap');
+*/
 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&family=Source+Serif+Pro&display=swap');
 
 
 body {
 font-family: "Source serif pro", sans-serif;
-color: red;
+color: #000000;
 
 
 
@@ -71,6 +73,8 @@ ul {
 .alert {
     text-align: center;
     text-decoration: underline;
+    font-size: 20px;
+    
 }
 
 .footer{
@@ -101,7 +105,37 @@ ul {
     margin-top: 50px;
 }
 
+.feedback-container {
+     background: url(../images/school-bg.jpg) no-repeat center center;
+     background-size: cover;
+     border-radius: 15px;
+     margin-top: 0px;
+     font-size: 30px;
+}
+
+.feedback-text {
+     background-color:  rgba(255,255,255, 0.8);
+     padding: 25px;
+     border-radius: 15px;
+}
+
 /*--------------------------------------------------------------------------------Teachers Page */
+
+.teachers-container {
+     background: url(../images/teachers-bg2.jpg) no-repeat center center;
+     background-size: cover;
+     border-radius: 15px;
+     margin-top: 0px;
+     font-size: 18px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+
+.teachers-text {
+     background-color:  rgba(255,255,255, 0.8);
+     padding: 25px;
+     border-radius: 15px;
+}
 
 .matt {
     height: 300px;
@@ -223,7 +257,6 @@ ul {
 
 .bio{
     overflow-x: hidden;
-    font-size: 18px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -247,6 +280,21 @@ ul {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem; 
+}
+
+.lessons-container {
+    background: url(../images/school-bg.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 0px;
+    font-size: 18px;
+    padding: 50px;
+}
+
+.lessons-text {
+     background-color:  rgba(255,255,255, 0.8);
+     padding: 25px;
+     border-radius: 15px;
 }
 
 .patterns {
@@ -295,7 +343,6 @@ footer h5 {
 
 .whole-form{
     text-align: center;
-    border: 2px solid black;
     border-radius: 15px;
     
 }
@@ -316,11 +363,45 @@ footer h5 {
 }
 
 
-
-
-/*--------------------------------------------------------------------------------Contact Page */
-
 .contact {
     padding-top: 25px;
     background-color: greenyellow;
 }
+
+.contact-container {
+    background: url(../images/school-bg.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 0px;
+    font-size: 18px;
+    padding: 50px;
+}
+
+.contact-text {
+     background-color:  rgba(255,255,255, 0.7);
+     padding: 10px;
+     border-radius: 15px;
+     
+}
+
+.index-head2 {
+    font-size: 50px;
+    font-family: "Big Shoulders Stencil Text" , sans-serif;
+    letter-spacing: 2px;
+}
+
+.location-container {
+    background: url(../images/location3.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 0px;
+    font-size: 18px;
+    padding: 50px;
+}
+
+.location-text {
+     background-color:  rgba(255,255,255, 0.8);
+     padding: 10px;
+     border-radius: 15px;
+}
+
