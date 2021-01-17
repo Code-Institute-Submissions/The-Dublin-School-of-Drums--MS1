@@ -1,9 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&family=Source+Serif+Pro:wght@600&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&family=Source+Serif+Pro:wght@600&display=swap');
+
+
 
 body {
-font-family: "Source Sans Pro", sans-serif;
-color: #f91d0d;
-background: url(assets/images/all.jpg);
+font-family: "Source serif pro", sans-serif;
+color: red;
+
 
 
 }
@@ -41,11 +49,18 @@ ul {
     line-height:25px;
 }
 
-/*.jumbotron-container {
-    background: url(assets/images/school-bg.jpg) no-repeat center center;
-   
+.jumbotron-container {
+    background: url(../images/school-bg.jpg) no-repeat center center;
     background-size: cover;
-} */
+    color: #000000;
+    margin-top: 0;
+   
+} 
+
+.text-background {
+    background-color:  rgba(255,255,255, 0.8);
+    padding: 8px;
+}
 
 .carousel-item {
     height: 19rem;
@@ -56,7 +71,6 @@ ul {
 .alert {
     text-align: center;
     text-decoration: underline;
-    margin-top: 20px;
 }
 
 .footer{
@@ -194,7 +208,7 @@ ul {
 
 
     .fade-in {
-       animation: fadeIn ease 1s;
+       animation: fadeIn ease 1.5s;
     }
 
     @keyframes fadeIn {
