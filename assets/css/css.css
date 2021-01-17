@@ -13,10 +13,8 @@
 body {
 font-family: "Source serif pro", sans-serif;
 color: #000000;
-
-
-
 }
+
 
 /*--------------------------------------------------------------------------------Navigation Bar */
 
@@ -28,6 +26,11 @@ color: #000000;
 a {
   font-size: 21px;
 }
+
+nav {
+    background-color: #f5f4f2;
+}
+
 
 /*--------------------------------------------------------------------------------Index Page */
 
@@ -284,6 +287,7 @@ ul {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem; 
+    font-size: 40px;
 }
 
 .lessons-container {
@@ -402,7 +406,7 @@ footer h5 {
 }
 
 .location-text {
-     background-color:  rgba(255,255,255, 0.8);
+     background-color:  rgba(255,255,255, 0.9);
      padding: 10px;
      border-radius: 15px;
 }
