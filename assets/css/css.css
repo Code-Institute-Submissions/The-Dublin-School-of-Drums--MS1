@@ -73,7 +73,7 @@ ul {
     text-decoration: underline;
     font-size: 20px;
     margin-bottom: 0;
-    
+    border: 3px solid #F0AD25;
 }
 
 .footer{
@@ -361,11 +361,6 @@ footer h5 {
 }
 
 
-.contact {
-    padding-top: 25px;
-    background-color: #f5f4f2;
-    margin-top: 1px;
-}
 
 .contact-container {
     background: url(../images/school-bg.jpg) no-repeat center center;
@@ -445,3 +440,47 @@ iframe {
     border-radius: 15px;
 }
 
+
+/*--------------------------------------------------------------------------------Buttons */
+
+.btn {
+    color: #f5f4f2;
+    background-color: #FA3217;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-color: #000;
+    transition-duration: 0.6s;
+    border: 2px solid #FA3217;
+}
+
+
+.btn:hover {
+     background-color: #f5f4f2;
+     color: #fa3217;
+     border: 2px solid #fa3217;
+}
+
+.btn-close {
+    float: right; 
+}
+
+/*--------------------------------------------------------------------------------Footer */
+
+.contact {
+    padding-top: 25px;
+    background-color: #f5f4f2;
+    margin-top: 1px;
+}
+
+.footer-email {
+    text-decoration: none;
+    color: #444;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+.footer-email:hover {
+  text-decoration: none;
+  color:  #FA3217;
+  border: 1px solid #FA3217;
+}
