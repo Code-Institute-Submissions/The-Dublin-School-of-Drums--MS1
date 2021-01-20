@@ -9,6 +9,8 @@ color: #000000;
 
 /*--------------------------------------------------------------------------------Navigation Bar */
 
+
+
 .logo {
     font-family: "Big Shoulders Stencil Text" , sans-serif;
     letter-spacing: 2px;
@@ -24,6 +26,7 @@ nav {
 
 
 /*--------------------------------------------------------------------------------Index Page */
+
 
 .lead {
     font-size: 20px;
@@ -105,72 +108,69 @@ ul {
 }
 
 .feedback-container {
-     background: url(../images/school-bg.jpg) no-repeat center center;
-     background-size: cover;
-     border-radius: 15px;
-     margin-top: 0px;
-     font-size: 30px;
+    background: url(../images/school-bg.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 0px;
+    font-size: 30px;
 }
 
 .feedback-text {
-     background-color:  rgba(255,255,255, 0.9);
-     padding: 25px;
-     border-radius: 15px;
+    background-color:  rgba(255,255,255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
 }
+
 
 /*--------------------------------------------------------------------------------Teachers Page */
 
+
 .teachers-container {
-     background: url(../images/teachers-bg2.jpg) no-repeat center center;
-     background-size: cover;
-     margin-top: 0px;
-     font-size: 18px;
-     padding-top: 50px;
-     padding-bottom: 50px;
+    background: url(../images/teachers-bg2.jpg) no-repeat center center;
+    background-size: cover;
+    margin-top: 0px;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .teachers-text {
-     background-color:  rgba(255,255,255, 0.9);
-     padding: 25px;
-     border-radius: 15px;
+    background-color:  rgba(255,255,255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
 }
 
 .matt {
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-
     padding: 0;
     margin: 0;
-
-    }
+}
 
 .matt-hover{
     height: 300px;
     width: 625px;
-   overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .matt-diff {
     max-width: 100%;
     height: auto;
-
-   
 }
 
 .danny {
-     height: 300px;
-     width: 625px;
-     overflow-x: hidden;
-
-     padding: 0;
-     margin: 0;
+    height: 300px;
+    width: 625px;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 .danny-hover {
-     height: 300px;
-     width: 625px;
-     overflow-x: hidden;
+    height: 300px;
+    width: 625px;
+    overflow-x: hidden;
 }
 
 .danny-diff {
@@ -179,67 +179,63 @@ ul {
 }
 
 .samantha {
-     height: 300px;
-     width: 625px;
-    overflow-x: hidden;
-
-    padding: 0;
-     margin: 0;
-    }
-
-    .sam-hover {
     height: 300px;
-     width: 625px;
+    width: 625px;
     overflow-x: hidden;
-    }
+    padding: 0;
+    margin: 0;
+}
 
-    .sam-diff {
-        max-width: 100%;
-        height: auto;
-    }
+.sam-hover {
+    height: 300px;
+    width: 625px;
+    overflow-x: hidden;
+}
 
-    .jimmy {
-     height: 300px;
-     width: 625px;
-     overflow-x: hidden;
+.sam-diff {
+    max-width: 100%;
+    height: auto;
+}
 
-     padding: 0;
-     margin: 0;
-    }
+.jimmy {
+    height: 300px;
+    width: 625px;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
 
-    .jimmy-hover{
-        height: 300px;
-        width: 625px;
-        overflow-x: hidden;
-    }
+.jimmy-hover{
+    height: 300px;
+    width: 625px;
+    overflow-x: hidden;
+}
 
-    .jimmy-diff {
-        max-width: 100%;
-        height: auto;
-    }
+.jimmy-diff {
+    max-width: 100%;
+    height: auto;
+}
 
-    .tony {
-     height: 300px;
-     width: 625px;
-     overflow-x: hidden;
+.tony {
+    height: 300px;
+    width: 625px;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
 
-     padding: 0;
-     margin: 0;
-    }
+.tony-hover {
+    height: 300px;
+    width: 625px;
+    overflow-x: hidden;
+}
 
-    .tony-hover {
-        height: 300px;
-     width: 625px;
-     overflow-x: hidden;
-    }
+.tony-diff {
+    max-width: 100%;
+    height: auto;
+}
 
-    .tony-diff {
-        max-width: 100%;
-        height: auto;
-    }
-
-
-    .fade-in {
+.fade-in {
        animation: fadeIn ease 1.5s;
     }
 
@@ -290,9 +286,9 @@ ul {
 }
 
 .lessons-text {
-     background-color:  rgba(255,255,255, 0.85);
-     padding: 25px;
-     border-radius: 15px;
+    background-color:  rgba(255,255,255, 0.85);
+    padding: 25px;
+    border-radius: 15px;
 }
 
 .patterns {
@@ -360,8 +356,6 @@ footer h5 {
     margin-bottom: 25px;
 }
 
-
-
 .contact-container {
     background: url(../images/school-bg.jpg) no-repeat center center;
     background-size: cover;
@@ -371,9 +365,9 @@ footer h5 {
 }
 
 .contact-text {
-     background-color:  rgba(255,255,255, 0.95);
-     padding: 10px;
-     border-radius: 15px;
+    background-color:  rgba(255,255,255, 0.95);
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .index-head2 {
@@ -391,9 +385,9 @@ footer h5 {
 }
 
 .location-text {
-     background-color:  rgba(255,255,255, 0.95);
-     padding: 10px;
-     border-radius: 15px;
+    background-color:  rgba(255,255,255, 0.95);
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .street-view {
@@ -414,17 +408,17 @@ footer h5 {
     }
 
 .add-border {
-     height: 61%;
-     width: 50%;
-     color: #f5f4f2;
-     background-color: rgba(0,0,0, 0.77);
-     position: absolute;
-     top: 25%;
-     bottom: 25%;
-     left: 25%;
-     right: 25%;
-     border: 3px solid #000;
-     border-Radius: 15px;
+    height: 61%;
+    width: 50%;
+    color: #f5f4f2;
+    background-color: rgba(0,0,0, 0.77);
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    border: 3px solid #000;
+    border-Radius: 15px;
 } 
 
 .mobile-border {
@@ -443,6 +437,7 @@ iframe {
 
 /*--------------------------------------------------------------------------------Buttons */
 
+
 .btn {
     color: #f5f4f2;
     background-color: #FA3217;
@@ -457,17 +452,19 @@ iframe {
 
 
 .btn:hover {
-     background-color: #f5f4f2;
-     color: #fa3217;
-     border: 2px solid #fa3217;
-     transform: scale(1.1);
+    background-color: #f5f4f2;
+    color: #fa3217;
+    border: 2px solid #fa3217;
+    transform: scale(1.1);
 }
 
 .btn-close {
     float: right; 
 }
 
+
 /*--------------------------------------------------------------------------------Footer */
+
 
 .contact {
     padding-top: 25px;
