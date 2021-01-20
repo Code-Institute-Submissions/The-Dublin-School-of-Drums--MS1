@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&family=Source+Serif+Pro&display=swap');
 
-
 body {
 font-family: "Source serif pro", sans-serif;
 color: #000000;
 }
 
-
 /*--------------------------------------------------------------------------------Navigation Bar */
-
-
 
 .logo {
     font-family: "Big Shoulders Stencil Text" , sans-serif;
@@ -22,11 +18,28 @@ a {
 
 nav {
     background-color: #f5f4f2;
+    border-bottom: 1px solid #444444;
 }
 
+.bdr-left {
+    border-left: 1.5px solid #444;
+}
+
+.bdr-right {
+    border-right: 1.5px solid #444;
+}
+
+@media only screen and (max-width: 990px) {
+.bdr-left {
+    border-left: none;
+}
+
+.bdr-right {
+    border-right: none;
+}
+}
 
 /*--------------------------------------------------------------------------------Index Page */
-
 
 .lead {
     font-size: 20px;
@@ -121,9 +134,7 @@ ul {
     border-radius: 15px;
 }
 
-
 /*--------------------------------------------------------------------------------Teachers Page */
-
 
 .teachers-container {
     background: url(../images/teachers-bg2.jpg) no-repeat center center;
@@ -308,9 +319,7 @@ footer h5 {
     margin-bottom: 40px;
 }
 
-
 /*--------------------------------------------------------------------------------Contact Page */
-
 
 .contact {
     margin-top: 6rem;
@@ -434,9 +443,7 @@ iframe {
     border-radius: 15px;
 }
 
-
 /*--------------------------------------------------------------------------------Buttons */
-
 
 .btn {
     color: #f5f4f2;
@@ -462,15 +469,14 @@ iframe {
     float: right; 
 }
 
-
 /*--------------------------------------------------------------------------------Footer */
-
 
 .contact {
     padding-top: 25px;
     background-color:  #f5f4f2;
     margin-top: 1px;
     color: #000;
+    border-top: 1px solid #000;
 }
 
 .footer-email {
@@ -485,4 +491,3 @@ iframe {
   color:  #FA3217;
   border: 1px solid #FA3217;
 }
-
