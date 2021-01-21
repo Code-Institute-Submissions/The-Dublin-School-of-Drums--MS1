@@ -112,8 +112,8 @@ ul {
 }
 
 .students {
-    width: 205x;
-    height: 205px;
+    width: 300px;
+    height: 250px;
     border-radius: 50%;
 }
 
@@ -143,7 +143,9 @@ ul {
 
 @media only screen and (max-width: 990px) {
 .students {
-    display: none;
+    height: 145px;
+    Width: 145px;
+    border-radius: 50%;
 }
 }
 
