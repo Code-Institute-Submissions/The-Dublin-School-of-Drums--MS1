@@ -347,9 +347,7 @@ footer h5 {
 .whole-form{
     text-align: center;
     border-radius: 15px;
-    
-}
-
+    }
 
 .form-group{
      text-align: center;
@@ -383,6 +381,7 @@ footer h5 {
     font-size: 65px;
     font-family: "Big Shoulders Stencil Text" , sans-serif;
     letter-spacing: 2px;
+    border-bottom: 0.1px solid #444;
 }
 
 .location-container {
