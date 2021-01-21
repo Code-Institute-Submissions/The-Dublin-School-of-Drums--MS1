@@ -48,7 +48,8 @@ nav {
 
 .index-head {
     font-family: "Big Shoulders Stencil Text" , sans-serif;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+    font-size: 60px;
 }
 
 .index-pic {
@@ -111,8 +112,8 @@ ul {
 }
 
 .students {
-    width: 150x;
-    height: 145px;
+    width: 205x;
+    height: 205px;
     border-radius: 50%;
 }
 
@@ -132,6 +133,18 @@ ul {
     background-color:  rgba(255,255,255, 0.9);
     padding: 25px;
     border-radius: 15px;
+}
+
+.sticks {
+    width: 100%;
+    border-radius: 15px;
+    padding-bottom: 6px;
+}
+
+@media only screen and (max-width: 990px) {
+.students {
+    display: none;
+}
 }
 
 /*--------------------------------------------------------------------------------Teachers Page */
