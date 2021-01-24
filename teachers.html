@@ -1,316 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Dublin School of Drums</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-       crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
-       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
-       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
-       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" 
-       integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg==" crossorigin="anonymous" />
-    <link href="assets/css/css.css" rel="stylesheet" type="text/css">
- <style>
-    .matt-diff {
-        height: 300px;
-        width: 625px;
-        position: relative;
-        display: inline-block;
-    }
-    .matt-diff .matt-hover {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-    .matt-diff:hover .matt-hover {
-        display: inline;
-    }
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Teachers | The Dublin School of Drums</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+            integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+            crossorigin="anonymous"
+        />
+        <link href="assets/css/css.css" rel="stylesheet" type="text/css" />
+        <style>
+            .matt-diff {
+                height: 300px;
+                width: 625px;
+                position: relative;
+                display: inline-block;
+            }
+            .matt-diff .matt-hover {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
+            .matt-diff:hover .matt-hover {
+                display: inline;
+            }
 
-    .danny-diff {
-        height: 300px;
-        width: 625px;
-        position: relative;
-        display: inline-block;
-    }
+            .danny-diff {
+                height: 300px;
+                width: 625px;
+                position: relative;
+                display: inline-block;
+            }
 
-    .danny-diff .danny-hover {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
+            .danny-diff .danny-hover {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
 
-    .danny-diff:hover .danny-hover {
-        display: inline;
-    }
+            .danny-diff:hover .danny-hover {
+                display: inline;
+            }
 
-    .sam-diff {
-        height: 300px;
-        width: 625px;
-        position: relative;
-        display: inline-block;
-    } 
+            .sam-diff {
+                height: 300px;
+                width: 625px;
+                position: relative;
+                display: inline-block;
+            }
 
-    .sam-diff .sam-hover{
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
+            .sam-diff .sam-hover {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
 
-    .sam-diff:hover .sam-hover {
-        display: inline;
-    }
+            .sam-diff:hover .sam-hover {
+                display: inline;
+            }
 
-    .jimmy-diff {
-        height: 300px;
-        width: 625px;
-        position: relative;
-        display: inline-block;
-    }
+            .jimmy-diff {
+                height: 300px;
+                width: 625px;
+                position: relative;
+                display: inline-block;
+            }
 
-    .jimmy-diff .jimmy-hover {
-         display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
+            .jimmy-diff .jimmy-hover {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
 
-    .jimmy-diff:hover .jimmy-hover {
-        display: inline;
-    }
+            .jimmy-diff:hover .jimmy-hover {
+                display: inline;
+            }
 
-    .tony-diff {
-         height: 300px;
-        width: 625px;
-        position: relative;
-        display: inline-block;
-    }
+            .tony-diff {
+                height: 300px;
+                width: 625px;
+                position: relative;
+                display: inline-block;
+            }
 
-    .tony-diff .tony-hover {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
+            .tony-diff .tony-hover {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
 
-    .tony-diff:hover .tony-hover {
-         display: inline;
-    }
- </style>
-</head>
-<body>
-  <header>
-        <div class="">
-   <nav class="navbar navbar-expand-lg navbar-light">
-       <h2 class="logo"><a class="navbar-brand hvr-glow" href="index.html">The Dublin School of Drums</a></h2>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
-         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav links">
-      <li class="nav-item">
-        <a class="nav-link hvr-grow bdr-left" href="index.html">Home</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link hvr-grow current" href="teachers.html">Our Teachers<span class="sr-only">(teachers)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link hvr-grow" href="lessons.html">Lessons</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link hvr-grow bdr-right" href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </div>
-  </nav>
-  </div>
-</header>
-
-<section>
-    <div class="teachers-container">
-        <div class="teachers-text">
-<h2 class="index-head2 head text-uppercase"><strong>Our Teachers</strong></h2>
-
-<div class="row staff">
-    <div class="col-12 col-sm-6">
-        <div class="matt-diff">
-      <a href="https://www.youtube.com/watch?v=yO2FzVvA3TQ" target="_blank">
-        <img src="assets/images/matt1.jpg" alt="Matt" class="matt img-fluid img-thumbnail">
-        <img src="assets/images/matt-hover.jpg" alt="Matt Cameron" class="matt-hover img-fluid img-thumbnail fade-in"></a>
-      </div>
-    </div>
-    <div class="col-12 col-sm-6">
-        <h3 class="bio">Matt Cameron</h3>
-    <p>Matt has taught at the school since its inception and serves as the primary rock drums teacher. Specialising
-       in all styles from classic rock like Ac/Dc to modern rock like Queens of the Stoneage, Matt provides an overview of the style.
-       A veteran of the genre, Matt has performed and recorded with highly successful bands Pearl Jam and Soundgarden among others.
-    <br><br>
-    Click on the photo to see Matt perform the song 'Even Flow' with his band Pearl Jam   
-    </p>
-    
-    </div>
-</div>
-<hr>
-<div>
-    <div class="row staff">
-    <div class="col-12 col-sm-6">
-        <h3 class="bio">Danny Carey</h3>
-      <p>Danny is an alumnus of the Kansas conservatory of music. With an emphasis on progressive rock, Danny fuses the 
-          style with elements of jazz, afro-carribean, and Irish traditional music to deliver his own unique take on the style. A player
-          with a depth of experience Danny has performed for over 30 years with his band Tool as well as jazz-rock fusion group Volto.
-          <br><br>
-          Click on the photo to see Danny perform 'Pneuma' with his band Tool. 
-      </p>
-      
-    </div>
-    <div class="col-12 col-sm-6">
-        <div class="danny-diff">
-   <a href="https://www.youtube.com/watch?v=FssULNGSZIA" target="_blank">
-    <img src="assets/images/danny1.jpg" alt="Danny" class="danny img-fluid img-thumbnail">
-    <img src="assets/images/danny-hover.jpg" class="danny-hover img-fluid img-thumbnail fade-in" alt="Danny Carey"></a>
-    </div>
-    </div>
-</div>
-</div>
-<hr>
-<div>
-    <div class="row staff">
-    <div class="col-12 col-sm-6">
-        <div class="sam-diff">
-       <a href="https://www.youtube.com/watch?v=_CCQz3tlXZ8" target="_blank">
-        <img src="assets/images/sam1.jpg" alt="Samantha" class="samantha img-fluid img-thumbnail">
-        <img src="assets/images/sam-hover.jpg" alt="Samantha Maloney" class="sam-hover img-fluid img-thumbnail fade-in"></a>
-        </div>
-    </div>
-    <div class="col-12 col-sm-6">
-        <h3 class="bio">Samantha Maloney</h3>
-   <p>Samantha is a former student of funk drummer Clyde Stubblefield, himself a veteran of James Brown's band in the 1970s.
-       After studying with him throughout her teens, Samantha went on to tour with various blues bands including Stevie Ray Vaughan's group
-       from 1985 - 1989. Samantha's main teaching focus is in various blues and funk styles.
-       <br><br>
-       Click on the photo to see Samantha perform live with Eagles of Death Metal. 
-   </p>
-   
-    </div>
-</div>
-</div>
-<hr>
-<div>
-     <div class="row staff">
-    <div class="col-12 col-sm-6">
-        <h3 class="bio">Jimmy Chamberlain</h3>
-       <p>Jimmy is our resident Jazz Big Band and Fusion teacher. Having performed with many of the most prominent
-           big bands in recent times, Jimmy brings his expertise to the school teaching students everything they need to know
-           to perform in a professional Big Band setting. Apart from performing regularly with the Simón Bolívar Big Band, Jimmy is 
-           a regular fill in for the Vanguard Jazz Orchestra.
-            <br><br>
-           Click on the Photo to see Jimmy perform at a workshop in Chicago.
-       </p>
-       
-    </div>
-    <div class="col-12 col-sm-6">
-        <div class="jimmy-diff">
-        <a href="https://www.youtube.com/watch?v=dT8RSSikRUc" target="_blank">
-            <img src="assets/images/jimmy4.jpg" alt="Jimmy" class="jimmy img-fluid img-thumbnail">
-        <img src="assets/images/jimmy-hover1.jpg" alt="Jimmy Chamberlain" class="jimmy-hover img-fluid img-thumbnail fade-in"></a>
-        </div>
-    </div>
-</div>
-</div>
-<hr>
-<div>
-     <div class="row staff">
-    <div class="col-12 col-sm-6">
-      <div class="tony-diff">
-         <a href="https://www.youtube.com/watch?v=OPYvRFKBX_g" target="_blank">
-            <img src="assets/images/tony1.jpg" alt="Tony" class="tony img-fluid img-thumbnail">
-        <img src="assets/images/tony-hover.jpg" alt="Tony Williams" class="tony-hover img-fluid img-thumbnail fade-in"></a>
-        </div>
-    </div>
-    <div class="col-12 col-sm-6">
-        <h3 class="bio">Tony Williams</h3>
-     <p>Tony is the schools resident traditional jazz teacher. A mainstay in Miles Davis' quintet of the 1960s
-         alongside Herbie Hancock, Wayne Shorter and Ron Carter, Tony brings his wealth of experience to the school. Offering
-         instruction on all aspects of the genre from interactive accompaniment to full form soloing, Tony's teaching will
-         ready the student for all the challenges present in performing in traditional jazz styles. 
-          <br><br>
-        Click on the photo to see Tony soloing live with Herbie Hancock's band.
-
-     </p>
-     </div>
-         </div>
-         </div>
-      </div>   
-</div>
-
-
-</section>
-
-
-
-
-
-
-
-
-<section>
-        <footer class="contact">
-        <div class="container">
-        <div class="row">
-            <div class="col-4 col-sm-4">
-              <h5 class="text-uppercase">Opening Hours:</h5>
-              <p><strong>Monday-Friday:</strong> 10:00 - 18:00</p>
-              <p><strong>Saturday - Sunday:</strong> 10:00 - 14:00</p>
-             
-            
-        
+            .tony-diff:hover .tony-hover {
+                display: inline;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <h2 class="logo"><a class="navbar-brand hvr-glow" href="index.html">The Dublin School of Drums</a></h2>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+                        <ul class="navbar-nav links">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link current" href="teachers.html">Our Teachers<span class="sr-only">(teachers)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="lessons.html">Lessons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        
-        
-            <div class="col-4 col-sm-4">
-                <h5 class="text-uppercase">Contact:</h5>
-               <p><strong>Phone:</strong> 01-4508973</p>
-               <p><strong>Mobile:</strong> 082-74566898</p>
-               <p><strong>Email:</strong> <a href="https://www.gmail.com" target="_blank" class="footer-email hvr-forward">tdsd@edublin.ie</a></p>
-            </div>
-            
-            
-            <div class="col-4 col-sm-4">
-                <div class="social">
-                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square hvr-forward" aria-hidden="true"></i></a>
-                <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square hvr-forward" aria-hidden="true"></i></a>
-                <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram hvr-forward" aria-hidden="true"></i></a>
+        </header>
+
+        <section>
+            <div class="teachers-container">
+                <div class="teachers-text">
+                    <h2 class="index-head2 head text-uppercase"><strong>Our Teachers</strong></h2>
+
+                    <div class="row staff">
+                        <div class="col-12 col-sm-6">
+                            <div class="matt-diff">
+                                <a href="https://www.youtube.com/watch?v=yO2FzVvA3TQ" target="_blank">
+                                    <img src="assets/images/matt1.jpg" alt="Matt" class="matt img-fluid img-thumbnail" />
+                                    <img src="assets/images/matt-hover.jpg" alt="Matt Cameron" class="matt-hover img-fluid img-thumbnail fade-in" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <h3 class="bio">Matt Cameron</h3>
+                            <p>
+                                Matt has taught at the school since its inception and serves as the primary rock drums teacher. Specialising in all styles from classic rock like Ac/Dc to modern rock like Queens of the Stoneage, Matt
+                                provides an overview of the style. A veteran of the genre, Matt has performed and recorded with highly successful bands Pearl Jam and Soundgarden among others. <br />
+                                <br />
+                                Click on the photo to see Matt perform the song 'Even Flow' with his band Pearl Jam
+                            </p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>
+                        <div class="row staff">
+                            <div class="col-12 col-sm-6">
+                                <h3 class="bio">Danny Carey</h3>
+                                <p>
+                                    Danny is an alumnus of the Kansas conservatory of music. With an emphasis on progressive rock, Danny fuses the style with elements of jazz, afro-carribean, and Irish traditional music to deliver his own
+                                    unique take on the style. A player with a depth of experience Danny has performed for over 30 years with his band Tool as well as jazz-rock fusion group Volto. <br />
+                                    <br />
+                                    Click on the photo to see Danny perform 'Pneuma' with his band Tool.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="danny-diff">
+                                    <a href="https://www.youtube.com/watch?v=FssULNGSZIA" target="_blank">
+                                        <img src="assets/images/danny1.jpg" alt="Danny" class="danny img-fluid img-thumbnail" />
+                                        <img src="assets/images/danny-hover.jpg" class="danny-hover img-fluid img-thumbnail fade-in" alt="Danny Carey" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>
+                        <div class="row staff">
+                            <div class="col-12 col-sm-6">
+                                <div class="sam-diff">
+                                    <a href="https://www.youtube.com/watch?v=_CCQz3tlXZ8" target="_blank">
+                                        <img src="assets/images/sam1.jpg" alt="Samantha" class="samantha img-fluid img-thumbnail" />
+                                        <img src="assets/images/sam-hover.jpg" alt="Samantha Maloney" class="sam-hover img-fluid img-thumbnail fade-in" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <h3 class="bio">Samantha Maloney</h3>
+                                <p>
+                                    Samantha is a former student of funk drummer Clyde Stubblefield, himself a veteran of James Brown's band in the 1970s. After studying with him throughout her teens, Samantha went on to tour with various
+                                    blues bands including Stevie Ray Vaughan's group from 1985 - 1989. Samantha's main teaching focus is in various blues and funk styles. <br />
+                                    <br />
+                                    Click on the photo to see Samantha perform live with Eagles of Death Metal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>
+                        <div class="row staff">
+                            <div class="col-12 col-sm-6">
+                                <h3 class="bio">Jimmy Chamberlain</h3>
+                                <p>
+                                    Jimmy is our resident Jazz Big Band and Fusion teacher. Having performed with many of the most prominent big bands in recent times, Jimmy brings his expertise to the school teaching students everything
+                                    they need to know to perform in a professional Big Band setting. Apart from performing regularly with the Simón Bolívar Big Band, Jimmy is a regular fill in for the Vanguard Jazz Orchestra. <br />
+                                    <br />
+                                    Click on the Photo to see Jimmy perform at a workshop in Chicago.
+                                </p>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="jimmy-diff">
+                                    <a href="https://www.youtube.com/watch?v=dT8RSSikRUc" target="_blank">
+                                        <img src="assets/images/jimmy4.jpg" alt="Jimmy" class="jimmy img-fluid img-thumbnail" />
+                                        <img src="assets/images/jimmy-hover1.jpg" alt="Jimmy Chamberlain" class="jimmy-hover img-fluid img-thumbnail fade-in" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>
+                        <div class="row staff">
+                            <div class="col-12 col-sm-6">
+                                <div class="tony-diff">
+                                    <a href="https://www.youtube.com/watch?v=OPYvRFKBX_g" target="_blank">
+                                        <img src="assets/images/tony1.jpg" alt="Tony" class="tony img-fluid img-thumbnail" />
+                                        <img src="assets/images/tony-hover.jpg" alt="Tony Williams" class="tony-hover img-fluid img-thumbnail fade-in" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <h3 class="bio">Tony Williams</h3>
+                                <p>
+                                    Tony is the schools resident traditional jazz teacher. A mainstay in Miles Davis' quintet of the 1960s alongside Herbie Hancock, Wayne Shorter and Ron Carter, Tony brings his wealth of experience to the
+                                    school. Offering instruction on all aspects of the genre from interactive accompaniment to full form soloing, Tony's teaching will ready the student for all the challenges present in performing in
+                                    traditional jazz styles. <br />
+                                    <br />
+                                    Click on the photo to see Tony soloing live with Herbie Hancock's band.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-       
             </div>
-        </div>
+        </section>
+
         
-        <div class="row">
-        <div class="col-12"> 
-            <p><small>&copy 2021 The Dublin School of Drums, Ireland.</small></p>
-            </div>   
-        </div>
-        </div>
-        </footer>
-    </section>
+            <footer class="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-sm-4">
+                            <h5 class="text-uppercase">Opening Hours:</h5>
+                            <p><strong>Monday-Friday:</strong> 10:00 - 18:00</p>
+                            <p><strong>Saturday - Sunday:</strong> 10:00 - 14:00</p>
+                        </div>
 
+                        <div class="col-4 col-sm-4">
+                            <h5 class="text-uppercase">Contact:</h5>
+                            <p><strong>Phone:</strong> 01-4508973</p>
+                            <p><strong>Mobile:</strong> 082-74566898</p>
+                            <p><strong>Email:</strong> <a href="https://www.gmail.com" target="_blank" class="footer-email hvr-forward">tdsd@edublin.ie</a></p>
+                        </div>
 
+                        <div class="col-4 col-sm-4">
+                            <div class="social">
+                                <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square hvr-forward" aria-hidden="true"></i></a>
+                                <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square hvr-forward" aria-hidden="true"></i></a>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram hvr-forward" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
-</body>
+                    <div class="row">
+                        <div class="col-12">
+                            <p><small>&copy 2021 The Dublin School of Drums, Ireland.</small></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+    </body>
 </html>
