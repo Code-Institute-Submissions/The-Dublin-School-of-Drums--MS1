@@ -22,7 +22,7 @@ nav a {
 }
 
 .navbar {
-    background-color:  #cc3300;
+    background-color:  #14213D;
     }
 
 .current {
@@ -30,7 +30,10 @@ nav a {
     
 }
 
-
+.navbar-toggler {
+    color: #fff;
+    font-size: 30px;
+}
 /*--------------------------------------------------------------------------------Index Page */
 
 
@@ -44,7 +47,7 @@ nav a {
     letter-spacing: 3px;
     font-size: 55px;
     padding:40px;
-   color: #cc3300;
+   color: #FCA311;
    margin: 0;
 }
 
@@ -83,7 +86,7 @@ ul {
 
 .carousel-text {
    margin-top: 30px;
-   color: #cc3300;
+   color: #000;
 }
 
 .students {
@@ -94,7 +97,7 @@ ul {
 
 .blockquote-footer {
     margin-top: 10px;
-    color: #cc3300;
+    color: #000;
 }
 
 .alert {
@@ -283,7 +286,7 @@ ul {
 }
 
 .bio h3 {
-    color:  #cc3300;
+    color:  #FCA311;
 }
 
 /*.bio h3  {
@@ -307,7 +310,7 @@ ul {
     padding: 40px;
     font-size: 45px;
     letter-spacing: 3px;
-    color: #cc3300;
+    color: #FCA311;
 }
 
 .lessons-container {
@@ -477,8 +480,8 @@ iframe {
 /*--------------------------------------------------------------------------------Buttons */
 
 .btn {
-    color: #fff;
-    background-color: #cc3300;
+    color: #FFF;
+    background-color: #FCA311;
     text-decoration: none;
     padding: 8px 30px;
     transition-duration: 0.1s;
@@ -488,8 +491,8 @@ iframe {
 }
 
 .btn:hover {
-    background-color: #cc3300;
-    color: #ffffff;
+    background-color: #FCA311;
+    color: #14213D;
     
     transform: scale(1.05);
 }
@@ -502,33 +505,34 @@ iframe {
 
 .contact {
     padding-top: 25px;
-    background-color: #cc3300;
-    color: #fff;
+    background-color: #14213D;
+    color: #FFF;
     margin-top: 0px;
 }
 
 .footer-email {
     text-decoration: none;
-    color: #fff;
+    color: #FFF;
     transition-duration: 0.5s;
     border-radius: 5px;
 }
 
 .footer-email:hover {
     text-decoration: underline;
-    color: #fff;
+    color: #FFF;
 }
 
 
 .social a i {
     font-size: 50px;
-    color: #fff;
+    color: #FFF;
     
 
 }
 
 .copyright {
     text-align: center;
+    color: #FFF;
 }
 /*--------------------------------------------------------------------------------Media Queries */
 
@@ -556,7 +560,7 @@ iframe {
     font-size: 55px;
     font-family: "Big Shoulders Stencil Text", sans-serif;
     letter-spacing: 3px;
-   color: #cc3300;
+   color: #FCA311;
   
     margin: 0;
     text-align: center;
