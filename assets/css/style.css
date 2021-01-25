@@ -351,10 +351,12 @@ footer h5 {
 }
 
 .embed {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------------------------Contact Page */
+
+
 
 .contact {
     margin-top: 6rem;
@@ -509,7 +511,7 @@ iframe {
 /*--------------------------------------------------------------------------------Footer */
 
 .contact {
-    padding-top: 25px;
+    padding-top: 20px;
     background-color: #14213D;
     color: #FFF;
     margin-top: 0px;
@@ -527,6 +529,10 @@ iframe {
     color: #FFF;
 }
 
+.footer-heading {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
 
 .social a i {
     font-size: 50px;
@@ -539,10 +545,11 @@ iframe {
 .copyright {
     text-align: center;
     color: #FFF;
+    padding-top: 5px;
 }
 
 .footer {
-    line-height: 75px;
+    line-height: 55px;
 }
 
 footer  {
