@@ -115,7 +115,7 @@ ul {
 
 .alert {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 0;
     border-radius: 0px;
     text-transform: uppercase;
@@ -395,7 +395,12 @@ footer h5 {
 }
 
 .form-group {
-    text-align: center;
+    
+    font-size: 18px;
+}
+
+.form-check-label {
+    font-size: 18px;
 }
 
 .form-control {
