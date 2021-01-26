@@ -138,19 +138,20 @@ ul {
     margin-top: 0px;
 }
 
-.feedback-container {
+/*.feedback-container {
     background: url(../images/school-bg.jpg) no-repeat center center;
     background-size: cover;
     border-radius: 15px;
     margin-top: 0px;
     font-size: 30px;
     
-}
+}*/
 
 .feedback-text {
-    background-color: rgba(255, 255, 255, 0.9);
+    /*background-color: rgba(255, 255, 255, 0.97);*/
+    background-color: #FCA311;
     padding: 25px;
-    border-radius: 15px;
+   
 }
 
 .sticks {
@@ -419,6 +420,19 @@ footer h5 {
      font-size: 18px;
 }
 
+.location-heading {
+    padding: 40px;
+   
+   
+    font-size: 55px;
+    font-family: "Big Shoulders Stencil Text", sans-serif;
+    letter-spacing: 3px;
+   color: #14213D;
+  
+    margin: 0;
+    text-align: center;
+}
+
 /* .index-title-all {
     padding-top: 0px;
     font-size: 65px;
@@ -430,19 +444,22 @@ footer h5 {
 
 }*/
 
-.location-container {
+/*.location-container {
     background: url(../images/location3.jpg) no-repeat center center;
     background-size: cover;
     margin-top: 0px;
     font-size: 18px;
     padding: 0px;
     border-radius: 0;
-}
+    
+}*/
 
 .location-text {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 0px;
-    border-radius: 0px;
+    /*background-color: rgba(255, 255, 255, 0.95);*/
+    padding: 00px;
+    
+    background-color: #FCA311;
+    
 }
 
 
@@ -537,6 +554,7 @@ iframe {
     font-size: 50px;
     color: #FFF;
     padding-bottom: 10px;
+    padding-right: 5px;
 }
 
 .social-links:hover {
