@@ -520,13 +520,12 @@ iframe {
 .footer-email {
     text-decoration: none;
     color: #FFF;
-    transition-duration: 0.5s;
-    border-radius: 5px;
+    /*transition-duration: 0.5s;*/
 }
 
 .footer-email:hover {
-    text-decoration: underline;
-    color: #FFF;
+   text-decoration: none;
+    color: #FCA311;
 }
 
 .footer-heading {
@@ -538,8 +537,10 @@ iframe {
     font-size: 50px;
     color: #FFF;
     padding-bottom: 10px;
+}
 
-
+.social-links:hover {
+    color: #FCA311;
 }
 
 .copyright {
