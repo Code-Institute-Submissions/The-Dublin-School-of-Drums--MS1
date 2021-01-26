@@ -57,9 +57,9 @@ nav a {
     height: 250px;
 }
 
-.center {
+/*.center {
     text-align: center;
-}
+}*/
 
 ul {
     list-style-type: square;
@@ -622,5 +622,9 @@ footer  {
    color: #FCA311;
   
     
+    text-align: center;
+}
+
+.center {
     text-align: center;
 }
