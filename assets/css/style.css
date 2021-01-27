@@ -57,9 +57,7 @@ nav a {
     height: 250px;
 }
 
-/*.center {
-    text-align: center;
-}*/
+
 
 ul {
     list-style-type: square;
@@ -83,7 +81,7 @@ ul {
 }
 
 .text-background {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.99);
     padding: 8px;
     border-radius: 15px;
 }
@@ -121,22 +119,10 @@ ul {
     text-transform: uppercase;
 }
 
-/*.footer {
-    line-height: 75px;
-}*/
 
 .heading {
     text-align: center;
 }
-
-/*.current {
-    text-decoration: underline;
-}
-
-.head {
-    text-align: left;
-    margin: 0;
-}*/
 
 
 
@@ -182,7 +168,7 @@ ul {
     background-color: rgba(255, 255, 255, 0.99);
     
    
-    padding: 20px;
+    padding: 20px 20px 8px 20px;
 }
 
 .matt {
@@ -385,7 +371,7 @@ margin: 0 60px 0 0 ;
 
 .lessons-text {
     background-color: rgba(255, 255, 255, 0.99);
-    padding: 20px;
+    padding: 8px;
     border-radius: 0;
 }
 
@@ -460,7 +446,7 @@ footer h5 {
 }
 
 .contact-text {
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: rgba(255, 255, 255, 0.99);
     padding: 20px;
     margin: 0;
     border-radius: 0px;
