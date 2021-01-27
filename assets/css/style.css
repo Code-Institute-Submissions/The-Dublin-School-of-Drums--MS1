@@ -328,11 +328,26 @@ margin: 0 35px;
     padding-top: 20px;
     color: #000;
     font-size: 18px;
-    
+    text-align: left;
+}
+
+.bio-text-right {
+      overflow-x: hidden;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 20px;
+    color: #000;
+    font-size: 18px;
+    text-align: right;
 }
 
 .bio h3 {
     color:  #FCA311;
+    font-size: 35px;
+}
+
+.bio-text-right h3 {
+     color:  #FCA311;
     font-size: 35px;
 }
 
@@ -350,7 +365,7 @@ margin: 0 35px;
     font-family: "Big Shoulders Stencil Text", sans-serif;
     text-align: center;
     margin: 0;
-    /*padding: 40px;*/
+
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 45px;
@@ -395,9 +410,7 @@ footer h5 {
     margin-top: 6rem;
 }
 
-/*.contact-image {
-    background-color: blue;
-}*/
+
 
 .address {
     text-align: center;
@@ -467,29 +480,10 @@ footer h5 {
     text-align: center;
 }
 
-/* .index-title-all {
-    padding-top: 0px;
-    font-size: 65px;
-    font-family: "Big Shoulders Stencil Text", sans-serif;
-    letter-spacing: 3.5px;
-    border-bottom: 0.1px solid #444;
-    text-align: left;
-    margin: 0;
 
-}*/
-
-/*.location-container {
-    background: url(../images/location3.jpg) no-repeat center center;
-    background-size: cover;
-    margin-top: 0px;
-    font-size: 18px;
-    padding: 0px;
-    border-radius: 0;
-    
-}*/
 
 .location-text {
-    /*background-color: rgba(255, 255, 255, 0.95);*/
+  
     padding: 00px;
     
     background-color: #FCA311;
@@ -572,7 +566,7 @@ iframe {
 .footer-email {
     text-decoration: none;
     color: #FFF;
-    /*transition-duration: 0.5s;*/
+   
 }
 
 .footer-email:hover {
@@ -645,6 +639,22 @@ footer  {
 
     .jimmy-hover {
         margin: 0;
+    }
+
+    .bio {
+   text-align: center;
+    }
+
+    .bio-text-right {
+        text-align: center;
+    }
+
+    .bio h3 {
+        text-align: center;
+    }
+
+    .bio-text-right h3 {
+        text-align: center;
     }
 }
 
