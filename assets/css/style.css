@@ -38,10 +38,10 @@ nav a {
 /*--------------------------------------------------------------------------------Index Page */
 
 
-.lead {
+/*.lead {
     font-size: 18px;
     
-}
+}*/
 
 .index-title {
     font-family: "Big Shoulders Stencil Text", sans-serif;
@@ -376,9 +376,9 @@ margin: 0 60px 0 0 ;
 }
 
 
-.point {
+/*.point {
     font-size: 21px;
-}
+}*/
 
 footer h5 {
     font-family: "Big Shoulders Stencil Text";
@@ -387,6 +387,7 @@ footer h5 {
 
 .embed {
     margin-top: 10px;
+   
 }
 
 /*--------------------------------------------------------------------------------Contact Page */
@@ -621,17 +622,19 @@ footer  {
     }
 
     .samantha {
-        margin: 0;
+       margin: 0;
     }
 
     .sam-hover{
-        margin: 0;
+       margin: 0;
     }
     .danny  {
-        margin: 0px;
+        margin: 0;
+
     }
 
     .danny-hover{
+        
         margin: 0;
     }
 
@@ -648,8 +651,12 @@ footer  {
 }
 
 .tony-hover{
-    margin: 0;
+   margin: 0;
 }
+
+
+
+
 
     .bio {
    text-align: center;
@@ -686,4 +693,8 @@ footer  {
 
 .center {
     text-align: center;
+}
+
+.lead {
+    font-size: 18px;
 }
