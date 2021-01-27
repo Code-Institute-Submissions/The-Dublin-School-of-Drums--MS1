@@ -179,7 +179,7 @@ ul {
 }
 
 .teachers-text {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.99);
     
    
     padding: 20px;
@@ -190,16 +190,17 @@ ul {
     width: 625px;
     overflow-x: hidden;
     padding: 0;
-    margin: 0 ;
+    margin: 0 0 0 60px;
     border-radius: 15px;
     border: 1px solid #FCA311;
+   
 }
 
 .matt-hover {
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-    margin: 0;
+    margin: 0 0 0 60px;
     border-radius: 15px;
     border: 1px solid #FCA311;
 }
@@ -214,7 +215,7 @@ ul {
     width: 625px;
     overflow-x: hidden;
     padding: 0;
-    margin: 0 35px;
+   margin: 0 60px 0 0 ;
     border-radius: 15px;
      border: 1px solid #FCA311;
 }
@@ -222,7 +223,7 @@ ul {
 .danny-hover {
     height: 300px;
     width: 625px;
-margin: 0 35px;
+margin: 0 60px 0 0 ;
     overflow-x: hidden;
     border-radius: 15px;
      border: 1px solid #FCA311;
@@ -237,7 +238,7 @@ margin: 0 35px;
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-     margin: 0 ;
+    margin: 0 0 0 60px;
     padding: 0;
 
     border-radius: 15px;
@@ -247,7 +248,7 @@ margin: 0 35px;
 .sam-hover {
     height: 300px;
     width: 625px;
-     margin: 0 ;
+    margin: 0 0 0 60px;
     overflow-x: hidden;
     border-radius: 15px;
      border: 1px solid #FCA311;
@@ -262,7 +263,7 @@ margin: 0 35px;
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-     margin: 0 35px;
+     margin: 0 60px 0 0 ;
     padding: 0 ;
     
     border-radius: 15px;
@@ -273,7 +274,7 @@ margin: 0 35px;
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-     margin: 0 35px;
+ margin: 0 60px 0 0 ;
     border-radius: 15px;
      border: 1px solid #FCA311;
 }
@@ -289,7 +290,7 @@ margin: 0 35px;
     overflow-x: hidden;
     
     padding: 0;
-    margin: 0;
+   margin: 0 0 0 60px;
     border-radius: 15px;
      border: 1px solid #FCA311;
 }
@@ -298,7 +299,7 @@ margin: 0 35px;
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-     margin: 0 ;
+   margin: 0 0 0 60px;
     border-radius: 15px;
      border: 1px solid #FCA311;
 }
@@ -383,7 +384,7 @@ margin: 0 35px;
 }
 
 .lessons-text {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.99);
     padding: 20px;
     border-radius: 0;
 }
@@ -625,6 +626,21 @@ footer  {
         font-size: 35px;
     }
 
+    .matt {
+        margin: 0;
+    }
+
+    .matt-hover {
+        margin: 0;
+    }
+
+    .samantha {
+        margin: 0;
+    }
+
+    .sam-hover{
+        margin: 0;
+    }
     .danny  {
         margin: 0px;
     }
@@ -640,6 +656,14 @@ footer  {
     .jimmy-hover {
         margin: 0;
     }
+
+.tony {
+    margin: 0;
+}
+
+.tony-hover{
+    margin: 0;
+}
 
     .bio {
    text-align: center;
