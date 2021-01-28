@@ -2,7 +2,8 @@
 This is a website to promote The Dublin School of Drums. It is intended to provide all relevant information to potential clients including 
 the schools history, list of facilities, staff list and all contact information. Included in this project is a page called Lessons. This is a 
 page with four instructional videos divided into two categories. The idea of this is to provide a sample to potential clients of a 
-larger, regularly updated page that they will be given access to upon enrolment. What sets this apart from YouTube videos with similar
+larger, regularly updated page that they will be given access to upon enrolment (Only the sample page is presented in this project and not the 
+larger one intended for enrolled students). What sets this apart from YouTube videos with similar
 content is that they are accessible only to enrolled students and they are relevant to material covered in one on one classes. Thus they 
 are intended to reinforce learning from in person classes.   
 
@@ -21,6 +22,12 @@ their playing.
 2. Returning Visitor Goals:
 * As a returning visitor I want to access exclusive content on the site provided to me upon enrolment. 
 
+## Features
+
+1. The site is responsive accross different device sizes. 
+2. The site includes numerous buttons. One is located on the landing page and is intended to bring the user to the Contact page. Another
+is located on the Lessons page which opens a modal allowing the user to sign in or close the modal. A third button is loacted on the 
+Contact page allowing the user to submit a form.  
 
 
 
