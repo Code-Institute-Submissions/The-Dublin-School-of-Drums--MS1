@@ -9,10 +9,19 @@ are intended to reinforce learning from in person classes.
 ## User Experience
 * User Stories
 
-1. First Time Visitor Goals
-* As a first time visitor I want 
 
-2. Returning Visitor Goals
+1. First Tiime Visitor Goals:
+* As a first time visitor I want to find all relevant information on the school. This includes facilities, location, teachers biographies,
+lesson content and contact information.
+* As a first time visitor I want to read positive feedback from past pupils and read about how attending the school has benefitted
+their playing. 
+* As a first time visitor I want a way to contact the school to either get more information or to be sent enrolment forms.
+
+
+2. Returning Visitor Goals:
+* As a returning visitor I want to access exclusive content on the site provided to me upon enrolment. 
+
+
 
 
 
