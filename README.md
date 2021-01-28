@@ -1,4 +1,26 @@
-# The Dublin School of Drums (MS1 Project - Code Institute)
+# The Dublin School of Drums (MS1 Project - Code Institute - Aaron Harbourne)
+This is a website to promote The Dublin School of Drums. It is intended to provide all relevant information to potential clients including 
+the schools history, list of facilities, staff list and all contact information. Included in this project is a page called Lessons. This is a 
+page with four instructional videos divided into two categories. The idea of this is to provide a sample to potential clients of a 
+larger, regularly updated page that they will be given access to upon enrolment. What sets this apart from YouTube videos with similar
+content is that they are accessible only to enrolled students and they are relevant to material covered in one on one classes. Thus they 
+are intended to reinforce learning from in person classes.   
+
+## User Experience
+* User Stories
+
+1. First Time Visitor Goals
+* As a first time visitor I want 
+
+2. Returning Visitor Goals
+
+
+
+
+
+
+
+
 
 ## Credits
 ### Photos:
