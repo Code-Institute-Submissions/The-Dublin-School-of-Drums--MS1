@@ -28,6 +28,9 @@ their playing.
 2. The site includes numerous buttons. One is located on the landing page and is intended to bring the user to the Contact page. Another
 is located on the Lessons page which opens a modal allowing the user to sign in or close the modal. A third button is loacted on the 
 Contact page allowing the user to submit a form.  
+3. The site includes a Navigation bar giving users access to the four pages of the site from any page.
+4. The site includes a footer with clickable social media links bringing users to socail media pages in a new page.
+5. In the footer also is an email link which is intended to open up a blank email composition for the user to contact the school.
 
 
 
