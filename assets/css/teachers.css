@@ -1,0 +1,92 @@
+           .matt-diff {
+                height: 300px;
+                width: 625px;
+                position: relative;
+                display: inline-block;
+            }
+            .matt-diff .matt-hover {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
+            .matt-diff:hover .matt-hover {
+                display: inline;
+            }
+
+            .danny-diff {
+                height: 300px;
+                width: 625px;
+                position: relative;
+                display: inline-block;
+            }
+
+            .danny-diff .danny-hover {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
+
+            .danny-diff:hover .danny-hover {
+                display: inline;
+            }
+
+            .sam-diff {
+                height: 300px;
+                width: 625px;
+                position: relative;
+                display: inline-block;
+            }
+
+            .sam-diff .sam-hover {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
+
+            .sam-diff:hover .sam-hover {
+                display: inline;
+            }
+
+            .jimmy-diff {
+                height: 300px;
+                width: 625px;
+                position: relative;
+                display: inline-block;
+            }
+
+            .jimmy-diff .jimmy-hover {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
+
+            .jimmy-diff:hover .jimmy-hover {
+                display: inline;
+            }
+
+            .tony-diff {
+                height: 300px;
+                width: 625px;
+                position: relative;
+                display: inline-block;
+            }
+
+            .tony-diff .tony-hover {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
+
+            .tony-diff:hover .tony-hover {
+                display: inline;
+            }
