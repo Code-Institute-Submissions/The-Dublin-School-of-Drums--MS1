@@ -13,12 +13,17 @@ body {
     letter-spacing: 2px;
 }
 
+
+
 nav a {
     font-size: 19px;
+    
 }
+
 
 .navbar {
     background-color: #14213d;
+    
 }
 
 .current {
@@ -324,6 +329,10 @@ ul {
     padding: 0px;
 }
 
+/*.description {
+    padding: 0 300px;
+}*/
+
 .lessons-text {
     background-color: rgba(255, 255, 255, 0.99);
     padding: 8px;
@@ -510,7 +519,7 @@ iframe {
 .copyright {
     text-align: center;
     color: #fff;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 .footer {
@@ -615,3 +624,4 @@ footer {
 .lead {
     font-size: 18px;
 }
+
