@@ -15,11 +15,23 @@ body {
 
 
 
+
 nav a {
     font-size: 19px;
     
 }
 
+nav .navbar-nav li a {
+    color: #fff !important;
+}
+
+nav .navbar-nav li a:hover {
+    color: #B7B7B7 !important;
+}
+
+nav .navbar h2 .logo {
+    color: #fff !important;
+}
 
 .navbar {
     background-color: #14213d;
@@ -31,7 +43,7 @@ nav a {
 }
 
 .navbar-toggler {
-    color: #fff;
+    color: #fff !important;
     font-size: 30px;
 }
 /*--------------------------------------------------------------------------------Index Page */
@@ -67,6 +79,7 @@ ul {
     border-radius: 15px;
     height: 200px;
     width: 400px;
+    margin-bottom: 40px;
 }
 
 .text-background {
@@ -93,6 +106,11 @@ ul {
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    
+}
+
+.fit{
+    object-fit: cover;
 }
 
 .blockquote-footer {
@@ -103,6 +121,9 @@ ul {
 .alert {
     text-align: center;
     font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 0;
     margin-bottom: 0;
     border-radius: 0px;
     text-transform: uppercase;
@@ -124,7 +145,8 @@ ul {
 .sticks {
     width: 100%;
     border-radius: 15px;
-    padding-bottom: 6px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------------------------------------------Teachers Page */
@@ -149,6 +171,7 @@ ul {
     margin: 0 0 0 60px;
     border-radius: 15px;
     border: 1px solid #fca311;
+    
 }
 
 .matt-hover {
@@ -173,6 +196,7 @@ ul {
     margin: 0 60px 0 0;
     border-radius: 15px;
     border: 1px solid #fca311;
+
 }
 
 .danny-hover {
@@ -245,6 +269,7 @@ ul {
     margin: 0 0 0 60px;
     border-radius: 15px;
     border: 1px solid #fca311;
+ 
 }
 
 .tony-hover {
@@ -305,7 +330,7 @@ ul {
 }
 
 .staff {
-    margin-bottom: 0;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------------------------------------------Lessons Page */
@@ -313,9 +338,8 @@ ul {
 .lessons {
     font-family: "Big Shoulders Stencil Text", sans-serif;
     text-align: center;
-    margin: 0;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 45px;
     letter-spacing: 3px;
     color: #fca311;
@@ -329,9 +353,9 @@ ul {
     padding: 0px;
 }
 
-/*.description {
-    padding: 0 300px;
-}*/
+.embed {
+    margin-bottom: 40px;
+}
 
 .lessons-text {
     background-color: rgba(255, 255, 255, 0.99);
@@ -356,7 +380,7 @@ footer h5 {
 
 .address {
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     color: #14213d;
     padding-bottom: 40px;
 }
@@ -466,7 +490,7 @@ iframe {
     padding: 8px 30px;
     transition-duration: 0.1s;
     transition: 0.1s ease-in-out;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 25px;
 }
@@ -609,6 +633,11 @@ footer {
 @media only screen and (max-width: 360px) {
     .logo {
        letter-spacing: 1px;
+    }
+
+    .address {
+        margin-bottom: 40px;
+        font-size: 35px;
     }
 }
 
