@@ -661,7 +661,7 @@ footer {
     
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1300px) {
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
 .matt {
     height: 300px;
     width: 625px;
@@ -683,6 +683,31 @@ footer {
 }
 
 .matt-diff {
+    max-width: 100%;
+    height: auto;
+}
+
+.danny {
+    height: 300px;
+    width: 625px;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 7px 60px 0 0;
+    border-radius: 15px;
+    border: 1px solid #fca311;
+
+}
+
+.danny-hover {
+    height: 300px;
+    width: 625px;
+    margin: 7px 60px 0 0;
+    overflow-x: hidden;
+    border-radius: 15px;
+    border: 1px solid #fca311;
+}
+
+.danny-diff {
     max-width: 100%;
     height: auto;
 }
@@ -732,6 +757,31 @@ text-align: left;
     max-width: 100%;
     height: auto;
 }
+
+.jimmy {
+    height: 300px;
+    width: 625px;
+    overflow-x: hidden;
+    margin: 7px 60px 0 0;
+    padding: 0;
+    border-radius: 15px;
+    border: 1px solid #fca311;
+}
+
+.jimmy-hover {
+    height: 300px;
+    width: 625px;
+    overflow-x: hidden;
+    margin: 7px 60px 0 0;
+    border-radius: 15px;
+    border: 1px solid #fca311;
+}
+
+.jimmy-diff {
+    max-width: 100%;
+    height: auto;
+}
+
 
 .tony {
     height: 300px;
