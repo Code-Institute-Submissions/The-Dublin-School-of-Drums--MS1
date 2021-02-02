@@ -661,13 +661,13 @@ footer {
     
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1300px) {
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
 .matt {
     height: 300px;
     width: 625px;
     overflow-x: hidden;
     padding: 0;
-    margin: 0 0 0 15px;
+    margin: 23px 0 0 15px;
     border-radius: 15px;
     border: 1px solid #fca311;
 
@@ -677,7 +677,7 @@ footer {
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-    margin: 0 0 0 15px;
+    margin: 23px 0 0 15px;
     border-radius: 15px;
     border: 1px solid #fca311;
 }
@@ -687,11 +687,33 @@ footer {
     height: auto;
 }
 
+.ipad {
+     
+    overflow-x: hidden;
+    margin-bottom: 0px;
+    text-align: right;
+    padding-top: 0px;
+    color: #000;
+    font-size: 18px;
+    }
+
+.ipad h3 {
+    text-align: right;
+}
+
+.ipad-right {
+text-align: left;
+}
+
+.ipad-right h3 {
+    text-align: left;
+}
+
 .samantha {
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-    margin: 0 0 0 15px;
+    margin: 23px 0 0 15px;
     padding: 0;
     border-radius: 15px;
     border: 1px solid #fca311;
@@ -700,7 +722,7 @@ footer {
 .sam-hover {
     height: 300px;
     width: 625px;
-    margin: 0 0 0 15px;
+    margin: 23px 0 0 15px;
     overflow-x: hidden;
     border-radius: 15px;
     border: 1px solid #fca311;
@@ -716,7 +738,7 @@ footer {
     width: 625px;
     overflow-x: hidden;
     padding: 0;
-    margin: 0 0 0 15px;
+    margin: 23px 0 0 15px;
     border-radius: 15px;
     border: 1px solid #fca311;
  
@@ -726,7 +748,7 @@ footer {
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-    margin: 0 0 0 15px;
+    margin: 23px 0 0 15px;
     border-radius: 15px;
     border: 1px solid #fca311;
 }
