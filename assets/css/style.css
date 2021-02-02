@@ -667,7 +667,7 @@ footer {
     width: 625px;
     overflow-x: hidden;
     padding: 0;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 100px;
     border-radius: 15px;
     border: 1px solid #fca311;
 
@@ -677,7 +677,7 @@ footer {
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 100px;
     border-radius: 15px;
     border: 1px solid #fca311;
 }
@@ -691,7 +691,7 @@ footer {
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 100px;
     padding: 0;
     border-radius: 15px;
     border: 1px solid #fca311;
@@ -700,7 +700,7 @@ footer {
 .sam-hover {
     height: 300px;
     width: 625px;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 100px;
     overflow-x: hidden;
     border-radius: 15px;
     border: 1px solid #fca311;
@@ -716,7 +716,7 @@ footer {
     width: 625px;
     overflow-x: hidden;
     padding: 0;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 100px;
     border-radius: 15px;
     border: 1px solid #fca311;
  
@@ -726,7 +726,7 @@ footer {
     height: 300px;
     width: 625px;
     overflow-x: hidden;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 100px;
     border-radius: 15px;
     border: 1px solid #fca311;
 }
