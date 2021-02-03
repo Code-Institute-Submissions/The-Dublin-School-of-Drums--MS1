@@ -11,6 +11,8 @@ page requiring a sign in name and password. (Only the sample page is presented i
 ![lessons-page-markup](./assets/images/lessons-markup.jpg.png)
 Above images demonstrate sites responsiveness across screen and device sizes
 
+The wireframes created as a reference for the look and features of the site are viewable here.
+
 ## User Experience
 User Stories:
 
@@ -38,6 +40,33 @@ address beside it.
 on the lessons page which is exclusive to enrolled students.
 * As a regular visitor to the site I want to know of any major events or disruptions to normal school activity. In this case the alert
 on the index.html page tells students that lessons will be presented on Skype due to Covid-19. 
+
+## Testing
+
+* The Contact Us button on the index.html page brings the user straight to the Contact page bypassing the rest of the site. This page opens up
+in the same tab as the Contact page is on the same website.
+* The Carousel slide on the index.html page moves to the next image and comment automatically. It also has arrows that the user can click
+to see the next image/comment to the left or right faster.
+* The email address when clicked opens up users email site in a new tab.
+* The social media links when clicked, open up in a new tab so user does not forget the site they left.
+* On teachers.html each of the five images when clicked links to a youtube video in a new tab.
+* Each of the images on teachers.html when hovered on displays a new image of that teacher so that the potential client can see them 
+performing.
+* on lessons.html, the Sign In button opens up a modal which effectively keeps the users attention by darkening the rest of the page.
+* This modal allows the user to sign in for exclusive content. If the user fails to insert an @ into the email address and presses the Sign In
+button, an alert will inform them that they must use the @ symbol in order to be able to sign in and will not allow the sign in until this
+symbol is included.
+* Each of the four videos on the lessons.html page will play when the user clicks on them and pause when clicked on again. Also all
+four videos can be watched from whatever part the user wishes by dragging the dot on the red band to the desired time location.
+* On the contact.html page the the Submit button will only submit the form if the email address has the @ symbol in it.
+* The embedded Google map on the contact.html page can be zoomed in and out of as the user may need by using the plus and minus symbols on the lower righthand corner. Also a street view can be accessed
+by clicking on the square in the lower left corner for the user to see the building as it looks in reality. If the user wishes
+they can click on the link title 'see larger map' which will open up a larger view of the map in a new tab if they find the map presented
+on the Contact page unreadable.
+
+
+
+
 
 ## Features
 
