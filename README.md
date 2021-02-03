@@ -8,7 +8,7 @@ page requiring a sign in name and password. (Only the sample page is presented i
  
 ![index-page-markup](./assets/images/index-markup.jpg.png)
 
-![lessons-page-markup](.assets/images/Lessons-markup.jpg.png)
+![lessons-page-markup](./assets/images/lessons-markup.jpg.png)
 
 
 ## User Experience
