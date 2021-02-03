@@ -1,19 +1,23 @@
 # The Dublin School of Drums (MS1 Project - Code Institute - Aaron Harbourne)
-This is a website to promote The Dublin School of Drums. It is intended to provide all relevant information to potential clients including 
-the schools history, list of facilities, staff list and all contact information. Included in this project is a page called Lessons. This is a 
+This is a website to promote an imaginary business called The Dublin School of Drums. It is intended to provide all relevant information to potential clients including 
+the schools history, list of facilities, teachers list, student feedback and all contact information. Included in this project is a page called Lessons. This is a 
 page with four instructional videos divided into two categories. The idea of this is to provide a sample to potential clients of a 
-larger, regularly updated page that they will be given access to upon enrolment (Only the sample page is presented in this project and not the 
-larger one intended for enrolled students). What sets this apart from YouTube videos with similar
-content is that they are accessible only to enrolled students and they are relevant to material covered in one on one classes. Thus they 
-are intended to reinforce learning from in person classes.   
+larger, regularly updated page that they would be given access to upon enrolment. The lessons page presented in this project is therefore a 
+smaller sample page with four videos and two categories that would be expanded upon in both number of videos and categories in a larger
+page requiring a sign in name and password. (Only the sample page is presented in this project).
+ 
+![index-page-markup](./assets/images/index-markup.jpg.png)
+
+![lessons-page-markup](.assets/images/Lessons-markup.jpg.png)
+
 
 ## User Experience
-* User Stories
+User Stories:
 
 
 1. First Tiime Visitor Goals:
 * As a first time visitor I want to find all relevant information on the school. This includes facilities, location, teachers biographies,
-lesson content and contact information.
+lesson content and contact information (i.e email, phone number).
 * As a first time visitor I want to read positive feedback from past pupils and read about how attending the school has benefitted
 their playing. 
 * As a first time visitor I want a way to contact the school to either get more information or to be sent enrolment forms.
