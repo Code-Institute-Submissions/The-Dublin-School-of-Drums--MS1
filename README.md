@@ -9,22 +9,35 @@ page requiring a sign in name and password. (Only the sample page is presented i
 ![index-page-markup](./assets/images/index-markup.jpg.png)
 
 ![lessons-page-markup](./assets/images/lessons-markup.jpg.png)
-
+Above images demonstrate sites responsiveness across screen and device sizes
 
 ## User Experience
 User Stories:
 
 
-1. First Tiime Visitor Goals:
+1. First Time Visitor Goals:
 * As a first time visitor I want to find all relevant information on the school. This includes facilities, location, teachers biographies,
-lesson content and contact information (i.e email, phone number).
+lesson content and contact information (i.e email, phone number and social media links).
 * As a first time visitor I want to read positive feedback from past pupils and read about how attending the school has benefitted
 their playing. 
 * As a first time visitor I want a way to contact the school to either get more information or to be sent enrolment forms.
-
+* As a first time visitor I am interested in any features of the website that are unique to the school such as in this case, the lessons page
+which is exclusive to enrolled students (Sample of this page presented in this project).
 
 2. Returning Visitor Goals:
-* As a returning visitor I want to access exclusive content on the site provided to me upon enrolment. 
+* As a returning visitor I want to access exclusive content on the site provided to me upon enrolment, in this case it is exclusive content
+on the lessons page which is exclusive to enrolled students.
+* As a returning visitor I want access to past recordings of the teachers, presented here in the clickable profile pictures in the teachers.html
+page and linking to youtube videos of them playing.
+* As a returning visitor I want access to social media to view updates at the school.
+* As a returning visitor I want to be reminded of the location of the school, presented here in an embedded google map with the written
+address beside it. 
+
+3. Regular visitor goals:
+* As a regular visitor I want to access exclusive content on the site provided to me upon enrolment, in this case it is exclusive content
+on the lessons page which is exclusive to enrolled students.
+* As a regular visitor to the site I want to know of any major events or disruptions to normal school activity. In this case the alert
+on the index.html page tells students that lessons will be presented on Skype due to Covid-19. 
 
 ## Features
 
