@@ -78,6 +78,10 @@ Contact page allowing the user to submit a form.
 4. The site includes a footer with clickable social media links bringing users to socail media pages in a new page.
 5. In the footer also is an email link which is intended to open up a blank email composition for the user to contact the school.
 
+### Features left to implement
+1. The lessons page when signed into, will have more videos and categories for these videos to be organised into. Also videos
+would be added regularly. 
+
 
 
 
