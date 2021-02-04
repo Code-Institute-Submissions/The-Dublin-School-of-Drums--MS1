@@ -56,7 +56,8 @@ which I feel may contribute to a better user experience on the site.
 2. All five teachers images are in black and white and when hovered over reveal a colour image of that teacher adding to the colour scheme of 
 the site.
 * Pictures:
-Pictures are added throughout the site to add colour, add an image to long text, and provide visual information as to what the staff of the school look like.
+* Pictures are added throughout the site to add colour, add an image to long text, and provide visual information as to what the staff of the school look like.
+
 
 ## Testing
 
