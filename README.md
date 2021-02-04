@@ -97,15 +97,25 @@ valid and worked properly. [Link to W3C Mark up Validator](https://www.validator
 is located on the Lessons page which opens a modal allowing the user to sign in or close the modal. A third button is located on the 
 Contact page allowing the user to submit a form.  
 3. The site includes a Navigation bar giving users access to the four pages of the site from any page.
-4. The site includes a footer with clickable social media links bringing users to social media pages in a new tab.
-5. In the footer also is an email link which is intended to open up a blank email composition for the user to contact the school.
-6. The four links in the navigation bar, the social media and email links in the footer and the buttons all have hover effects applied to them.
+4. The mobile view of the navigation bar features a drop down menu instead of four links appearing side by side. The four links then appear
+when the dropdown menu is clicked underneath the navigation bar.
+5. The site includes a footer with clickable social media links bringing users to social media pages in a new tab.
+6. In the footer also is an email link which is intended to open up a blank email composition for the user to contact the school.
+7. The four links in the navigation bar, the social media and email links in the footer and the buttons all have hover effects applied to them.
 This lets the user know that these features when clicked will perform the intended action. 
-7. The images in the teachers page when clicked change to another image of that teacher adding to the sites colour.
+8. The images in the teachers page when clicked change to another image of that teacher adding to the sites colour.
 
 ### Features left to implement
 1. The lessons page when signed into, will have more videos and categories for these videos to be organised into. Also videos
 would be added regularly. Only the sample page is included in this project therefore this would still have to be implemented.
+
+## Problems encountered during development
+1. On the Galaxy Fold screen during responsive development, the drop down menu came below the schools logo due to it being too big
+on that screen size. Therefore it had to be made smaller using CSS to have it appear to the right of the logo. 
+2. On the mobile view of the index page, the background image was too domineering when trying to read the text, so I put in a white background
+on mobile view instead of the image making the text easier to read.
+3. On mobile view the footer looked too cluttered so I used a bootstrap grid to put the sections on top of each other rather than side by side.
+
 
 
 ## Technologies used
