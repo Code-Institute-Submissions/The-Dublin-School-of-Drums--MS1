@@ -42,6 +42,22 @@ on the lessons page which is exclusive to enrolled students.
 * As a regular visitor to the site I want to know of any major events or disruptions to normal school activity. In this case the alert
 on the index.html page tells students that lessons will be presented on Skype due to Covid-19. 
 
+## Design
+* Font Type:
+1. 'Big Shoulders Stencil Text', from Google Fonts was used for the logo and headings throughout the site. This was chosen as it reminded me of the 
+typeface for the Irish music store and school [Xmusic](https://www.xmusic.ie/). I feel that the 'Big Shoulders Stencil Text' font type will appeal more to a user
+interested in music which is generally a less formal activity than a being a student at a University for example, the website for which would require a more formal font type.
+The secondary font chosen is sans-serif, which most web browsers will display if they don't support the chosen font.
+2. The font type for the rest of the site is 'Source serif pro' from Google Fonts with a fallback font of sans-serif. This was chosen for its
+easy readability.
+* Colour Scheme: 
+1. The colors of black, blue, orange, platinum, and white were chosen as they contrast well with each other. They are also bright
+which I feel may contribute to a better user experience on the site.
+2. All five teachers images are in black and white and when hovered over reveal a colour image of that teacher adding to the colour scheme of 
+the site.
+* Pictures:
+Pictures are added throughout the site to add colour, add an image to long text, and provide visual information as to what the staff of the school look like.
+
 ## Testing
 
 * The Contact Us button on the index.html page brings the user straight to the Contact page bypassing the rest of the site. This page opens up
@@ -77,11 +93,14 @@ valid and worked properly. [Link to W3C Mark up Validator](https://www.validator
 
 1. The site is responsive accross different device sizes. 
 2. The site includes numerous buttons. One is located on the landing page and is intended to bring the user to the Contact page. Another
-is located on the Lessons page which opens a modal allowing the user to sign in or close the modal. A third button is loacted on the 
+is located on the Lessons page which opens a modal allowing the user to sign in or close the modal. A third button is located on the 
 Contact page allowing the user to submit a form.  
 3. The site includes a Navigation bar giving users access to the four pages of the site from any page.
-4. The site includes a footer with clickable social media links bringing users to socail media pages in a new page.
+4. The site includes a footer with clickable social media links bringing users to social media pages in a new tab.
 5. In the footer also is an email link which is intended to open up a blank email composition for the user to contact the school.
+6. The four links in the navigation bar, the social media and email links in the footer and the buttons all have hover effects applied to them.
+This lets the user know that these features when clicked will perform the intended action. 
+7. The images in the teachers page when clicked change to another image of that teacher adding to the sites colour.
 
 ### Features left to implement
 1. The lessons page when signed into, will have more videos and categories for these videos to be organised into. Also videos
