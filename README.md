@@ -11,7 +11,7 @@ page requiring a sign in name and password. (Only the sample page is presented i
 ![lessons-page-markup](./assets/images/lessons-markup.jpg.png)
 Above images demonstrate sites responsiveness across screen and device sizes
 
-The wireframes created as a reference for the look and features of the site are viewable ![here](dublin-school-of-drums-wireframes.pdf).
+The wireframes created as a reference for the look and features of the site are viewable [here](dublin-school-of-drums-wireframes.pdf).
 
 ## User Experience
 User Stories:
