@@ -11,11 +11,12 @@ page requiring a sign in name and password. (Only the sample page is presented i
 ![lessons-page-markup](./assets/images/lessons-markup.jpg.png)
 Above images demonstrate sites responsiveness across screen and device sizes
 
-The wireframes created as a reference for the look and features of the site are viewable [here](dublin-school-of-drums-wireframes.pdf).
+
 
 ## User Experience
-User Stories:
+The wireframes created as a reference for the look and features of the site are viewable [here](dublin-school-of-drums-wireframes.pdf).
 
+User Stories:
 
 1. First Time Visitor Goals:
 * As a first time visitor I want to find all relevant information on the school. This includes facilities, location, teachers biographies,
@@ -80,11 +81,11 @@ four videos can be watched from whatever part the user wishes by dragging the do
 by clicking on the square in the lower left corner for the user to see the building as it looks in reality. If the user wishes
 they can click on the link title 'see larger map' which will open up a larger view of the map in a new tab if they find the map presented
 on the Contact page unreadable.
-* The website [Link to resonsivedesign.is](https://www.responsivedesign.is) was used as well as the inspect tool in Google Chrome
+* The website [Responsivedesign.is](https://www.responsivedesign.is) was used as well as the inspect tool in Google Chrome
 throughout the development to ensure the sites responsiveness across device sizes. 
 * The code syntax was tested for errors using the W3C Mark Up Validator and W3C CSS Validator. This was to ensure that the code was
 valid and worked properly. [Link to W3C Mark up Validator](https://www.validator.w3.org/#validate_by_input), [Link to Css validator](http://www.jigsaw.w3.org/css-validator/#validate_by_input)
-* The code itself was indented for easier future adjustments using [Link to Web Formatter](https://www.webformatter.com/css)
+* The code itself was indented for easier future adjustments using this [Web Formatter](https://www.webformatter.com/css)
 
 
 
@@ -132,20 +133,30 @@ reliable way as git deletes commands after a certain length of time whereas Gith
 The site was then hosted on Github pages via the settings option on Github.
 
 
-
-
-
 ## Credits
 ### Photos:
+
+Index Page:
+1. Sticks on snare drum photo visible only in mobile view taken from stooche.com (https://www.stooshe.com/how-to-choose-drumsticks)
+2. Photo of 'Hal Staunton' taken from the Dhaka Tribune (https://www.dhakatribune.com/showtime/2019/03/13/legendary-drummer-hal-blaine-dies-at-90)  
+3. Photo of 'Michael Murtagh' taken from Modern Drummer (https://www.moderndrummer.com/article/january-2018-foo-fighters-taylor-hawkins/)
+4. Photo of Ciara O'Brien taken from The Music Learning Centre (https://www.themusicianslearningcenter.com/drum-lessons-in-raleigh-nc/)
+5. Photo of Philip Connolly taken from cruiseshipdrummer.com (http://www.cruiseshipdrummer.com/2017/02/han-bennink-practice-tips.html)
+6. All other photos on Index page are my own. 
 
 Teachers Page:
 1. Matt Cameron black and white photo from his Wikipedia Page (https://en.wikipedia.org/wiki/Matt_Cameron)
 2. Colour photo of Matt Cameron taken from his Drummerworld page (https://www.drummerworld.com/drummers/Matt_Cameron.html) 
-3. Danny Carey black and white photo  from his listing on the D'Addario site (https://www.daddario.com/artists/evans-drumheads/danny_carey/)
+3. Danny Carey black and white photo taken from his listing on the D'Addario site (https://www.daddario.com/artists/evans-drumheads/danny_carey/)
 4. Colour photo of Danny Carey taken from music news site Stereogum (https://www.stereogum.com/1974724/danny-carey-on-tools-new-album-itll-be-out-in-2018/news/)
 5. Samantha Maloney black and white photo from Celeb Net Worth (https://celebnetworth.net/samantha-maloney-bio-wiki-net-worth-age-height-weight/) 
-6. 
-7. Jimmy Chamberlain black and white photo from 
+6. Colour photo of Samantha Maloney taken from Pinterest (https://www.pinterest.com/wearamradio/females-hitting-drums/)
+7. Jimmy Chamberlain black and white photo taken from Pinterest (https://br.pinterest.com/pin/252131279112390545/) 
 8. Colour photo of Jimmy Chamberlain taken from YouTube thumbnail found on Google images (https://www.youtube.com/watch?v=61VGr1-VXAg) 
 9. Tony Williams black and white photo from Getty Images (https://www.gettyimages.ie/detail/news-photo/tony-williams-performing-with-vsop-at-the-greek-theater-in-news-photo/98304324)
 10. Colour photo of Tony Williams taken from SFJAZZ (https://www.sfjazz.org/onthecorner/tony-williams-5-songs)
+
+### Videos
+Lessons Page:
+1. Three videos are taken from the Drumeo Youtube channel (https://www.youtube.com/user/freedrumlessons)
+2. The other video is taken from the Drum Beats Online Youtube channel (https://www.youtube.com/user/DrumBeatsOnline)
