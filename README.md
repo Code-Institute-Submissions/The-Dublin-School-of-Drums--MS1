@@ -1,5 +1,5 @@
 # The Dublin School of Drums (MS1 Project - Code Institute - Aaron Harbourne)
-This is a website to promote an imaginary business called The Dublin School of Drums. It is intended to provide all relevant information to potential clients including 
+This is a website to promote an imaginary business called The Dublin School of Drums which provides in-person drum lessons to students at a location in Dublin city centre. It is intended to provide all relevant information to potential clients including 
 the schools history, list of facilities, teachers list, student feedback and all contact information. Included in this project is a page called Lessons. This is a 
 page with four instructional videos divided into two categories. The idea of this is to provide a sample to potential clients of a 
 larger, regularly updated page that they would be given access to upon enrolment. The lessons page presented in this project is therefore a 
@@ -25,13 +25,14 @@ their playing.
 * As a first time visitor I want a way to contact the school to either get more information or to be sent enrolment forms.
 * As a first time visitor I am interested in any features of the website that are unique to the school such as in this case, the lessons page
 which is exclusive to enrolled students (Sample of this page presented in this project).
+* As a first time visitor I am interested to hear and see the teachers playing music to assess whether I want to study with them.
 
 2. Returning Visitor Goals:
 * As a returning visitor I want to access exclusive content on the site provided to me upon enrolment, in this case it is exclusive content
 on the lessons page which is exclusive to enrolled students.
-* As a returning visitor I want access to past recordings of the teachers, presented here in the clickable profile pictures in the teachers.html
+* As a returning visitor I want continued access to past recordings of the teachers, presented here in the clickable profile pictures in the teachers.html
 page and linking to youtube videos of them playing.
-* As a returning visitor I want access to social media to view updates at the school.
+* As a returning visitor I want continued access to social media to view updates at the school.
 * As a returning visitor I want to be reminded of the location of the school, presented here in an embedded google map with the written
 address beside it. 
 
@@ -44,10 +45,10 @@ on the index.html page tells students that lessons will be presented on Skype du
 ## Testing
 
 * The Contact Us button on the index.html page brings the user straight to the Contact page bypassing the rest of the site. This page opens up
-in the same tab as the Contact page is on the same website.
+in the same tab as the Contact page is on the same website. This is for potential clients who are interested by the schools description to enrol or ask for more information without viewing the teachers list or lessons page.
 * The Carousel slide on the index.html page moves to the next image and comment automatically. It also has arrows that the user can click
 to see the next image/comment to the left or right faster.
-* The email address when clicked opens up users email site in a new tab.
+* The email address when clicked opens the users email site in a new tab.
 * The social media links when clicked, open up in a new tab so user does not forget the site they left.
 * On teachers.html each of the five images when clicked links to a youtube video in a new tab.
 * Each of the images on teachers.html when hovered on displays a new image of that teacher so that the potential client can see them 
@@ -63,7 +64,11 @@ four videos can be watched from whatever part the user wishes by dragging the do
 by clicking on the square in the lower left corner for the user to see the building as it looks in reality. If the user wishes
 they can click on the link title 'see larger map' which will open up a larger view of the map in a new tab if they find the map presented
 on the Contact page unreadable.
-
+* The website [Link to resonsivedesign.is](https://www.responsivedesign.is) was used as well as the inspect tool in Google Chrome
+throughout the development to ensure the sites responsiveness across device sizes. 
+* The code syntax was tested for errors using the W3C Mark Up Validator and W3C CSS Validator. This was to ensure that the code was
+valid and worked properly. [Link to W3C Mark up Validator](https://www.validator.w3.org/#validate_by_input), [Link to Css validator](http://www.jigsaw.w3.org/css-validator/#validate_by_input)
+* The code itself was indented for easier future adjustments using [Link to Web Formatter](https://www.webformatter.com/css)
 
 
 
@@ -80,12 +85,32 @@ Contact page allowing the user to submit a form.
 
 ### Features left to implement
 1. The lessons page when signed into, will have more videos and categories for these videos to be organised into. Also videos
-would be added regularly. 
+would be added regularly. Only the sample page is included in this project therefore this would still have to be implemented.
 
 
+## Technologies used
+* HTML - This was used to form the basic undecorated structure of the site. Implemented using html was all text, images, and basic structural layout.
+* CSS - Css was used to decorate the site. This includes putting headers in the middle of the page, colouring backgrounds on the Carousel and footer
+, adding font sizes to the text and decorating the images with the border-radius style as just some examples.
+* JavaScript - The modal used on the lessons page and taken from bootstrap ver. 4.3 uses Javasript. 
+*  Bootstrap - Bootstrap vesion 4.3 was used in this site. This is a library to get ready made code that can be copy and pasted into ones own project.
+The code was then styled using my own CSS styling. The page is available here [Link to Bootstrap version 4.3](https://www.getbootstrap.com/docs/4.3/getting-started/download/)
+*  Google Fonts - This site was used to get the two font styles used in this project. [Link to Google Fonts](https://www.fonts.google.com/)
+* Font Awesome - This website provided the social media icons in the footer of my page. [Link to Font Awesome](https://www.fontawesome.com/)
+* Balsamiq - This site was used to create the wireframes from whih I structured the look of the finished site. [Link to Balsamiq](https://www.balsamiq.com/)
+* Github - This site was used as a repository for updates to the progress of the site. [Link to Github pages](https://www.github.com/)
+* Git - This was used to record progress on the site via commits. These commits were then pushed to Github for a more concrete repository of the work.
+* Gitpod - This is the editor used to code with. [Link to Gitpod](https://www.gitpod.io/)
 
+## Deployment
+Both Git and Github were used to record the process of the sites development. Using the command terminal on Gitpod, progress was saved to Git
+via commits. The process was done by typing git add, plus the filename to save a single file or . to include all files. Then git commit -m and
+a commit description included in double quotes such as these "" was used to describe the commit for future reference. 
 
+Following the git commit, files were pushed to Github using the git push command in the terminal. Github then stored the project in a more
+reliable way as git deletes commands after a certain length of time whereas Github does not.
 
+The site was then hosted on Github pages via the settings option on Github.
 
 
 
