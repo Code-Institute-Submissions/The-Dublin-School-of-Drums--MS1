@@ -78,6 +78,7 @@ ul {
     height: 200px;
     width: 400px;
     margin-bottom: 40px;
+    border: 1px solid #fca311;
 }
 
 .text-background {
