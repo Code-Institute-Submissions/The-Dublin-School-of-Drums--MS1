@@ -1,4 +1,6 @@
 # The Dublin School of Drums (MS1 Project - Code Institute - Aaron Harbourne)
+The site is available [here](https://aaronh1986.github.io/The-Dublin-School-of-Drums--MS1/)
+
 This is a website to promote an imaginary business called The Dublin School of Drums which provides in-person drum lessons to students at a location in Dublin city centre. It is intended to provide all relevant information to potential clients including 
 the schools history, list of facilities, teachers list, student feedback and all contact information. Included in this project is a page called Lessons. This is a 
 page with four instructional videos divided into two categories. The idea of this is to provide a sample to potential clients of a 
