@@ -102,7 +102,7 @@ when the dropdown menu is clicked underneath the navigation bar.
 5. The site includes a footer with clickable social media links bringing users to social media pages in a new tab.
 6. In the footer also is an email link which is intended to open up a blank email composition for the user to contact the school.
 7. The four links in the navigation bar, the social media and email links in the footer and the buttons all have hover effects applied to them.
-This lets the user know that these features when clicked will perform the intended action. 
+This lets the user intuitively know that these features when clicked will perform an action. 
 8. The images in the teachers page when clicked change to another image of that teacher adding to the sites colour.
 
 ### Features left to implement
@@ -127,7 +127,7 @@ on mobile view instead of the image making the text easier to read.
 The code was then styled using my own CSS styling. The page is available here [Link to Bootstrap version 4.3](https://www.getbootstrap.com/docs/4.3/getting-started/download/)
 *  Google Fonts - This site was used to get the two font styles used in this project. [Link to Google Fonts](https://www.fonts.google.com/)
 * Font Awesome - This website provided the social media icons in the footer of my page. [Link to Font Awesome](https://www.fontawesome.com/)
-* Balsamiq - This site was used to create the wireframes from whih I structured the look of the finished site. [Link to Balsamiq](https://www.balsamiq.com/)
+* Balsamiq - This site was used to create the wireframes from which I structured the look of the finished site. [Link to Balsamiq](https://www.balsamiq.com/)
 * Github - This site was used as a repository for updates to the progress of the site. [Link to Github pages](https://www.github.com/)
 * Git - This was used to record progress on the site via commits. These commits were then pushed to Github for a more concrete repository of the work.
 * Gitpod - This is the editor used to code with. [Link to Gitpod](https://www.gitpod.io/)
@@ -147,11 +147,11 @@ The site was then hosted on Github pages via the settings option on Github.
 ### Photos:
 
 Index Page:
-1. Sticks on snare drum photo visible only in mobile view taken from stooche.com (https://www.stooshe.com/how-to-choose-drumsticks)
+1. Sticks on snare drum photo visible only in mobile view taken from stooshe.com (https://www.stooshe.com/how-to-choose-drumsticks)
 2. Photo of 'Hal Staunton' taken from the Dhaka Tribune (https://www.dhakatribune.com/showtime/2019/03/13/legendary-drummer-hal-blaine-dies-at-90)  
 3. Photo of 'Michael Murtagh' taken from Modern Drummer (https://www.moderndrummer.com/article/january-2018-foo-fighters-taylor-hawkins/)
-4. Photo of Ciara O'Brien taken from The Music Learning Centre (https://www.themusicianslearningcenter.com/drum-lessons-in-raleigh-nc/)
-5. Photo of Philip Connolly taken from cruiseshipdrummer.com (http://www.cruiseshipdrummer.com/2017/02/han-bennink-practice-tips.html)
+4. Photo of 'Ciara O'Brien' taken from The Music Learning Centre (https://www.themusicianslearningcenter.com/drum-lessons-in-raleigh-nc/)
+5. Photo of 'Philip Connolly' taken from cruiseshipdrummer.com (http://www.cruiseshipdrummer.com/2017/02/han-bennink-practice-tips.html)
 6. All other photos on Index page are my own. 
 
 Teachers Page:
