@@ -47,14 +47,14 @@ on the index.html page tells students that lessons will be presented on Skype du
 * Font Type:
 1. 'Big Shoulders Stencil Text', from Google Fonts was used for the logo and headings throughout the site. This was chosen as it reminded me of the 
 typeface for the Irish music store and school [Xmusic](https://www.xmusic.ie/). I feel that the 'Big Shoulders Stencil Text' font type will appeal more to a user
-interested in music which is generally a less formal activity than a being a student at a University for example, the website for which would require a more formal font type.
+interested in music which is generally a less formal activity than studying at a university for example, the website for which would require a more formal font type.
 The secondary font chosen is sans-serif, which most web browsers will display if they don't support the chosen font.
 2. The font type for the rest of the site is 'Source serif pro' from Google Fonts with a fallback font of sans-serif. This was chosen for its
 easy readability.
 * Colour Scheme: 
 1. The colors of black, blue, orange, platinum, and white were chosen as they contrast well with each other. They are also bright
 which I feel may contribute to a better user experience on the site.
-2. All five teachers images are in black and white and when hovered over reveal a colour image of that teacher adding to the colour scheme of 
+2. All five teachers images are in black and white and when hovered over reveal a colour image of that teacher adding to the colour of 
 the site.
 * Pictures are added throughout the site to add colour, add a visual change to long text, and provide visual information as to what the staff of the school look like.
 
@@ -76,7 +76,7 @@ button, an alert will inform them that they must use the @ symbol in order to be
 symbol is included.
 * Each of the four videos on the lessons.html page will play when the user clicks on them and pause when clicked on again. Also all
 four videos can be watched from whatever part the user wishes by dragging the dot on the red band to the desired time location.
-* On the contact.html page the the Submit button will only submit the form if the email address has the @ symbol in it.
+* On the contact.html page the Submit button will only submit the form if the email address has the @ symbol in it.
 * The embedded Google map on the contact.html page can be zoomed in and out of as the user may need by using the plus and minus symbols on the lower righthand corner. Also a street view can be accessed
 by clicking on the square in the lower left corner for the user to see the building as it looks in reality. If the user wishes
 they can click on the link title 'see larger map' which will open up a larger view of the map in a new tab if they find the map presented
@@ -84,7 +84,7 @@ on the Contact page unreadable.
 * The website [Responsivedesign.is](https://www.responsivedesign.is) was used as well as the inspect tool in Google Chrome
 throughout the development to ensure the sites responsiveness across device sizes. 
 * The code syntax was tested for errors using the W3C Mark Up Validator and W3C CSS Validator. This was to ensure that the code was
-valid and worked properly. [Link to W3C Mark up Validator](https://www.validator.w3.org/#validate_by_input), [Link to Css validator](http://www.jigsaw.w3.org/css-validator/#validate_by_input)
+valid and worked properly. [Link to W3C Mark up Validator](https://www.validator.w3.org/), [Link to Css validator](http://www.jigsaw.w3.org/css-validator/)
 * The code itself was indented for easier future adjustments using this [Web Formatter](https://www.webformatter.com/css)
 
 
